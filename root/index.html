@@ -11,11 +11,11 @@
 </head>
 
 <body id="home">
-    <div id="container">
-        <header>
-           <img id="logo" src="images/logo-1inch.png" alt="logo" />
-            
-             <nav>
+    <div>
+        <header class="row"> <!-- added class"row" for skeleton responsiveness -->
+          <div class="twelve columns">
+            <nav>
+               <img id="logo" src="images/logo-1inch.png" alt="logo" />
                 <label for="showMenu" class="showMenu"><span class="fa fa-bars" aria-hidden="true"></span></label>
                 <input type="checkbox" id="showMenu" role="button">
                 <ul class="menu">
@@ -26,16 +26,22 @@
                 
                  </ul>
             </nav>
-          
+            </div>
         
         </header>
         
         <main>
-       
-        <div class="banner">
-            <img src="images/banner-1400px.jpg" alt="banner" />
+        <div class="row" id="mainContent">
+          <div class="container">
+           <div class="one-half column">
+           <h4>Get Help Today</h4>
+           <p>Aye. (Tannen and his gang are still looking for Doc.) There he is, Buford. Where? Right there. (points to the dance floor) Dancing with that piece of calico.</p>
+           <a href="#" class="button button-primary">
+               Get Help
+           </a>
         </div>
-        
+            </div>
+            </div>
         </main>
 
        

@@ -1,5 +1,6 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); /* check the link for font-awsome with Emily*/
 
+/*Reset*/
 *{
     margin:0;
     padding:0;
@@ -10,20 +11,30 @@ nav, section, article, header, footer, figure, main, aside, video, audio {
     display: block;
 }
 
+
+/* Mobile first queries */
+
 body {
     
     background-color: #f1f0f0;
     font-family:  sans-serif;
 }
 
+/*
 #container{
     width: 75%;
     margin: 0 auto;
     background-color: white
 }
+*/
+/*
+.container {
+    padding: 0;
+}
+*/
 header {
      background-color: #6a304c;
-     padding: .2em;      /* It makes the border around the nav when it is shown */
+     padding: 5px;      /* It makes the border around the nav when it is shown */
     
 }
 #logo {
@@ -69,19 +80,40 @@ nav input[type=checkbox]:checked ~ ul.menu {
     text-align: right;
     color: #fff;
     cursor: pointer;
-    height: 32px;
 }
 
 /* ---- end nav ---- */
 
 .fa-bars {
-    font-size: 1.8em;
+    font-size: 2.8em;
 
 }
 header span {
     color: #fff;
     font-size: .8em;
     float: right;
-    margin-top: -38px;
+    margin-top: -44px;
     margin-right: .2em;
+}
+
+/*Main Content*/
+
+#mainContent {
+    background: url(../images/banner-1400px.jpg);
+    background-size: ;
+    background-repeat: no-repeat;
+}
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+    
+    
+}
+
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    
+    
 }
