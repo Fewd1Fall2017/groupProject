@@ -1,0 +1,119 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); /* check the link for font-awsome with Emily*/
+
+/*Reset*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav, section, article, header, footer, figure, main, aside, video, audio {
+    display: block;
+}
+
+
+/* Mobile first queries */
+
+body {
+    
+    background-color: #f1f0f0;
+    font-family:  sans-serif;
+}
+
+/*
+#container{
+    width: 75%;
+    margin: 0 auto;
+    background-color: white
+}
+*/
+/*
+.container {
+    padding: 0;
+}
+*/
+header {
+     background-color: #6a304c;
+     padding: 5px;      /* It makes the border around the nav when it is shown */
+    
+}
+#logo {
+    margin: .2em .2em;
+}
+.banner img {
+    max-width: 100%;
+}
+
+a {
+    color: #6a304c;
+    text-decoration: none;
+    font-weight: 400;
+}
+header a{
+    font-size: 1.1em;
+   
+}
+
+
+/* ---- nav ----- */
+
+nav ul {
+    list-style-type: none;
+    display: none;
+}
+nav li {
+    background-color: #f1f0f0;
+    border-bottom: solid 1px #fff;
+}
+nav li a {
+    padding: .3em;
+    display: block;
+}
+nav input[type=checkbox] {
+    display: none;
+}
+nav input[type=checkbox]:checked ~ ul.menu {
+    display: block;
+}
+.showMenu {
+    background-color: #6a304c;
+    text-align: right;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* ---- end nav ---- */
+
+.fa-bars {
+    font-size: 2.8em;
+
+}
+header span {
+    color: #fff;
+    font-size: .8em;
+    float: right;
+    margin-top: -44px;
+    margin-right: .2em;
+}
+
+/*Main Content*/
+
+#mainContent {
+    background: url(../images/banner-1400px.jpg);
+    background-size: ;
+    background-repeat: no-repeat;
+}
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+    
+    
+}
+
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    
+    
+}
