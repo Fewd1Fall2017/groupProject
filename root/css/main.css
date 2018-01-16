@@ -1,15 +1,20 @@
+/*Font Family Google Fonts Spectral and Rubik*/
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,500,500i|Spectral');
+
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); /* check the link for font-awsome with Emily*/
 
-/*Reset*/
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
+/*Styles
 
-nav, section, article, header, footer, figure, main, aside, video, audio {
-    display: block;
-}
+********FONTS********
+
+font-family: 'Spectral', serif;
+font-family: 'Rubik', sans-serif;
+
+********COLORS*******
+Dusty Purple #6a304c
+OFF WHITE: #f1f0f0
+
+*/
 
 
 /* Mobile first queries */
@@ -17,21 +22,29 @@ nav, section, article, header, footer, figure, main, aside, video, audio {
 body {
     
     background-color: #f1f0f0;
-    font-family:  sans-serif;
+    font-family: 'Spectral', serif;
 }
 
-/*
-#container{
-    width: 75%;
-    margin: 0 auto;
-    background-color: white
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Rubik', sans-serif;
 }
-*/
-/*
-.container {
-    padding: 0;
+
+/*Button Styles*/
+
+.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+    font-family: 'Rubik', sans-serif;
+    color: #f1f0f0;
+    background-color: #6a304c;
+    border-color: #6a304c;
 }
-*/
+
+.button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
+    color: #6a304c;
+    background-color: #f1f0f0;
+    border-color: #f1f0f0;
+}
+
+/*HEADER*/
 header {
      background-color: #6a304c;
      padding: 5px;      /* It makes the border around the nav when it is shown */
@@ -49,9 +62,17 @@ a {
     text-decoration: none;
     font-weight: 400;
 }
+
 header a{
     font-size: 1.1em;
-   
+}
+
+header span {
+    color: #fff;
+    font-size: .8em;
+    float: right;
+    margin-top: -44px;
+    margin-right: .2em;
 }
 
 
@@ -62,10 +83,18 @@ nav ul {
     display: none;
 }
 nav li {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+nav li a:hover {
+    color:#6a304c;
     background-color: #f1f0f0;
-    border-bottom: solid 1px #fff;
 }
 nav li a {
+    color: #f1f0f0;
     padding: .3em;
     display: block;
 }
@@ -82,27 +111,32 @@ nav input[type=checkbox]:checked ~ ul.menu {
     cursor: pointer;
 }
 
-/* ---- end nav ---- */
-
 .fa-bars {
     font-size: 2.8em;
 
 }
-header span {
-    color: #fff;
-    font-size: .8em;
-    float: right;
-    margin-top: -44px;
-    margin-right: .2em;
-}
+
+/* ---- end nav ---- */
+
 
 /*Main Content*/
 
-#mainContent {
+#featuredContent {
     background: url(../images/banner-1400px.jpg);
-    background-size: ;
+    background-size: cover;
     background-repeat: no-repeat;
 }
+
+#featuredContent .one-half {
+    margin-top:10%;
+    margin-bottom: 10%;
+}
+
+.button-primary {
+    
+}
+
+
 
 
 /* Larger than mobile */
