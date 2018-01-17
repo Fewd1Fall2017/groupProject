@@ -84,7 +84,158 @@ header i {
 }
 
 
-/* ---- nav ----- */
+/*nav with JS */
+/* Reset */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Menu Bar */
+
+.main-navigation {
+  background-color: #6a304c;
+ /* navigatin color gray changed to purple */
+  color: #fff;
+}
+
+.main-navigation .menu {
+  display: none;
+}
+
+.main-navigation a {
+  color: inherit;
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.toggled-on .menu {
+  display: block;
+}
+
+/* Indent sub-menus */
+.main-navigation ul ul {
+  margin-left: 2rem;
+}
+
+.menu-toggle {
+  /*background: none;*/
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  height: 48px;
+  padding: 10px 10px;
+}
+
+/* lable */
+ nav input[type=checkbox] {
+    display: none;
+}
+ nav input[type=checkbox]:checked ~ .menu {
+    display: block;
+}
+
+
+
+/*Larger screen*/
+
+@media screen and (min-width: 700px) {
+  
+  /* Hide the NAvigation Lable */
+  /* ???? It is not working?!*/
+     .fa fa-bars {
+        display: none;
+    }
+    
+  /* Hide the menu toggle */
+  .menu-toggle {
+    display: none;
+  }
+
+  
+  /* Make sure the menu items display */
+  .main-navigation a {
+    display: inline-block;
+  }
+  
+  .main-navigation .menu {
+    display: block;
+  }
+  
+  .main-navigation li {
+    display: inline-block;
+    position: relative /* Sub menus are absolutely positioned relative to this*/
+  }
+  
+  /* Display sub-menu items vertically */
+  .main-navigation ul ul li {
+    float: none;
+  }
+  
+  .main-navigation ul ul a {
+    width: 150px;
+  }
+  
+  /* Position sub-menus below their parent, hidden by default */
+  .main-navigation ul ul {
+    background-color: #6a304c;
+    left: -999em;
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    z-index: 1000; /* Make sure sub menus display on top, without this there can be issues with multi-line menus */
+    opacity: 0.1;
+    transition: top 0.2s, opacity 0.2s;
+  }
+
+  /* Displays sub menus on hover */
+  .main-navigation li:hover > ul,
+  .main-navigation li.focus > ul {
+    opacity: 1;
+    left: auto;
+    top: 100%;
+    transition: top 0.2s, opacity 0.3s;
+  }
+
+  /* Highlight menu options on hover */
+  .main-navigation .nav-menu > li:hover > a,
+  .main-navigation .nav-menu > li.focus > a {
+    
+    text-decoration: underline;
+  }
+
+  /* Bring 3rd level+ menus to the right, not below */  
+  
+  .main-navigation .children li > ul {
+    top: 45%;
+  }
+  
+  .main-navigation .children li:hover > ul,
+  .main-navigation .children li.focus > ul{
+    left: 100%;
+    top: 0;
+  }
+  
+  /* Within sub-menus change the background on the <a> tag so it doesn't remain highlighted */
+  .main-navigation ul ul a:hover,
+  .main-navigation ul ul li.focus > a {
+  text-decoration: underline;
+  }
+  
+  .main-navigation ul ul {
+    margin-left: 0;
+  }
+}
+
+/*End Nav With JS*/
+
+/*navigation mobil first whithout drop down*/
+
+/*
 
 nav ul {
     list-style-type: none;
@@ -106,10 +257,10 @@ nav li a {
     padding: .3em;
     display: block;
 }
-nav input[type=checkbox] {
+ nav input[type=checkbox] {
     display: none;
 }
-nav input[type=checkbox]:checked ~ ul.menu {
+ nav input[type=checkbox]:checked ~ ul.menu {
     display: block;
 }
 .showMenu {
@@ -123,6 +274,16 @@ nav input[type=checkbox]:checked ~ ul.menu {
     font-size: 2.8em;
 
 }
+*/
+
+/*  drop down mobil first*/
+
+/*
+nav ul li ul input[type=checkbox] {display: none;}
+nav ul li ul input[type=checkbox]:checked ~ ul.drop {display: block;
+}
+*/
+
 
 /* ---- end nav ---- */
 
@@ -399,6 +560,7 @@ footer li a:hover {
 /* Larger than mobile */
 @media (min-width: 400px) {
     
+
     
 }
 
