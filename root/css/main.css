@@ -59,7 +59,7 @@ header {
     
 }
 #logo {
-    margin: .2em .2em;
+    margin: .2em .2em .2em .2em;
     display: inline;
 }
 .banner img {
@@ -155,7 +155,10 @@ header i {
      label.showMenu {
      display: none;
     }
-
+/* move the nav text adjust to the logo*/
+    .menu, .nav-menu, .main-navigation {
+        display: inline-block;
+    }
     
   /* Hide the menu toggle */
   .menu-toggle {
