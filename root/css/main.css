@@ -434,6 +434,16 @@ footer input[type="submit"].button-primary:hover{
 
 /***********FOOTER NAVIGATION******************/
 
+footer .two.columns {
+    margin-bottom: 2.5rem;
+}
+
+footer .row div:nth-of-type(n+3){
+    width: 30%;
+}
+footer .row div:nth-of-type(n+4){
+    margin-left: 5%;
+}
 footer address {
     font-style: normal;
 }
@@ -455,6 +465,7 @@ footer li a:hover {
 .footerBanner {
     color: #f1f0f0;
     background-color: #6a304c;
+    text-align: center;
 }
 
 .footerBanner .container {
@@ -463,6 +474,8 @@ footer li a:hover {
 
 .footerBanner a {
     color: #f1f0f0;
+    display: inline-block;
+    padding-bottom: 2%;
 }
 
 
@@ -558,8 +571,27 @@ footer li a:hover {
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {
+@media (min-width: 426px) {
     
+/*****************FOOTER***********************/
+footer .two.columns {
+    margin-bottom: 0;
+}
+
+footer .row div:nth-of-type(n+3){
+    width: 13.3333333333%;
+}
+footer .row div:nth-of-type(n+4){
+    margin-left: 4%;
+}
+
+    .footerBanner{
+        text-align: left;
+    }
+    
+    .footerBanner a{
+        float: right;
+    }
 
     
 }
@@ -573,6 +605,8 @@ footer li a:hover {
           grid-template-columns: 33% 33% 33%;
     }
     
+/*************FOOTER************/
+
 }
 
 
