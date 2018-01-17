@@ -32,6 +32,9 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Rubik', sans-serif;
 }
 
+.rubik {
+    font-family: 'Rubik', sans-serif;
+}
 /*Button Styles*/
 
 .button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
@@ -141,6 +144,8 @@ nav input[type=checkbox]:checked ~ ul.menu {
     color: #6a304c;
 }
 
+
+
 /*Primary Content*/
 
 .primaryContent {
@@ -173,6 +178,35 @@ nav input[type=checkbox]:checked ~ ul.menu {
     border-color: #EA8571;
 }
 
+
+/*About Us*/
+img {
+    max-width: 100%;
+}
+
+.bio {
+    display: inline;
+    color: #00C5CD;
+}
+.dustyPurpleTransparent {
+    background-color: #cbb7c1;  
+}
+.tealTransparent {
+    background-color:  #b2edf0;
+}
+.friend{
+    background-color: #00C5CD;
+    border-color: #00C5CD;
+}
+
+.fa-history {
+    display: inline;
+    color: #00C5CD
+}
+
+section:last-child {
+    border-bottom: 1px solid gray;
+}
 /*footer*/
 .footerBanner {
     background-color: #6a304c;
