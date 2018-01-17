@@ -1,5 +1,5 @@
 /*Font Family Google Fonts Spectral and Rubik*/
-@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,500,500i|Spectral');
+@import url('https://fonts.googleapis.com/css?family=Rubik:100,100i,300,300i,500,500i|Spectral');
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); /* check the link for font-awsome with Emily*/
 
@@ -296,7 +296,7 @@ nav ul li ul input[type=checkbox]:checked ~ ul.drop {display: block;
     background-position: center;
 }
 
-#hero .one-half {
+#hero .one-half, #donateHeaderTextArea .one-half {
     margin-top:10%;
     margin-bottom: 10%;
     background: rgba(255,255,255,.7);
@@ -339,6 +339,8 @@ nav ul li ul input[type=checkbox]:checked ~ ul.drop {display: block;
     border-color: #EA8571;
 }
 
+/*END OF MAIN CONTENT HOME PAGE*/
+
 
 /*About Us*/
 img {
@@ -368,13 +370,189 @@ img {
 section:last-child {
     border-bottom: 1px solid gray;
 }
-/*footer*/
+/***********************FOOTER*************************/
+
+footer, footer a {
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+}
+
+footer .container {
+    padding-top: 3%;
+}
+
+footer h6, footer h6 + p {
+    color: #FFB73D;
+    line-height: 1.25;
+}
+
+footer h6 + p {
+    margin-top: -10px;
+    font-size: 1.15em;
+}
+
+/********************FOOTER EMAIL FORM**************/
+footer input[type="email"]{
+    border: 2px solid #EA8571;
+    border-radius: 0;
+    background: none;
+    color: #EA8571;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+}
+
+footer input[type="email"]:focus{
+    border: 2px solid #EA8571;
+    outline: 0;
+}
+
+footer input[type="email"]::placeholder{
+    color: #EA8571;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+}
+
+footer input[type="submit"].button-primary{
+    background-color: #f1f0f0;
+    font-weight: 100;
+    border: 2px solid #EA8571;
+    color: #EA8571;
+}
+
+footer input[type="submit"].button-primary:focus{
+    background-color: #f1f0f0;
+    font-weight: 100;
+    border: 2px solid #EA8571;
+    color: #EA8571;
+}
+
+footer input[type="submit"].button-primary:hover{
+    border: 2px solid #EA8571;
+    background-color: #EA8571;
+    color: #f1f0f0;
+}
+
+/***********FOOTER NAVIGATION******************/
+
+footer address {
+    font-style: normal;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li, footer li a, footer address {
+    color: #EA8571;
+}
+
+footer li a:hover {
+    border-bottom: 2px solid #EA8571;
+    color: #EA8571;
+}
+
+/*Footer Copyright and social media links*/
 .footerBanner {
+    color: #f1f0f0;
     background-color: #6a304c;
 }
 
 .footerBanner .container {
-    padding-top: 1%;
+    padding-top: 2%;
+}
+
+.footerBanner a {
+    color: #f1f0f0;
+}
+
+
+
+/*Donate Page*/
+
+.donateHeader {
+    background: url(../images/hands.png) no-repeat center;
+    background-size: cover;
+}
+#donationOptions h3 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #6a304c;
+    border-bottom: solid 1px #6a304c;
+}
+
+.wrapper {
+    display: block;
+    grid-gap: 10px;
+    margin: 80px 0;
+}
+
+.box {
+  color: green;
+  border-radius: 5px;
+  padding: 20px;
+    
+/* border transition */
+  position:relative;
+  text-align: center;
+  transition: 0.5s;
+  padding: 20px;
+  -webkit-transition:0.5s; /* Safari */
+    
+/* background-color transition */
+  -webkit-transition-property: background-color; /* Safari */
+  -webkit-transition-duration: 2s; /* Safari */
+  transition-property: background-color;
+  transition-duration: 2s;
+}
+
+.box:before, .box::after {
+  width: 100%;
+  height:100%;
+  z-index: 3;
+  content:'';
+  position: absolute;
+  top:0;
+  left:0;
+  box-sizing: border-box;
+  -webkit-transform: scale(0); /* Safari */
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.box:before {
+  border-bottom: 1px solid #6a304c;
+  border-left: 1px solid #6a304c;
+  -webkit-transform-origin: 0 100%; /* Safari */
+}
+
+.box:after {
+  border-top: 1px solid #6a304c;
+  border-right: 1px solid #6a304c;
+  -webkit-transform-origin: 100% 0%; /* Safari */
+}
+
+.box:hover::after, .box:hover::before {
+  -webkit-transform: scale(1); /* Safari */
+}
+.box:hover {
+    background-color: #fff;
+}
+
+
+.box img, .box .button {
+    display: block;
+    margin: 0 auto;
+}
+
+.box h4 {
+    text-align: center;
+    color: #6a304c;
+    margin-top: 15px;
+}
+
+.box p {
+    color: #0083A1;
 }
  
 
@@ -389,6 +567,12 @@ section:last-child {
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-    
+   /*Donate Page*/ 
+    .wrapper {
+          display: grid;
+          grid-template-columns: 33% 33% 33%;
+    }
     
 }
+
+
