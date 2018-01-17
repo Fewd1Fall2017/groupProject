@@ -13,6 +13,9 @@ font-family: 'Rubik', sans-serif;
 ********COLORS*******
 Dusty Purple #6a304c
 OFF WHITE: #f1f0f0
+Golden Rod #FFB73D;
+Teal #00C5CD;
+dusty pink #EA8571;
 
 */
 
@@ -36,12 +39,14 @@ h1, h2, h3, h4, h5, h6{
     color: #f1f0f0;
     background-color: #6a304c;
     border-color: #6a304c;
+    border-radius: 0;
 }
 
 .button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
     color: #6a304c;
     background-color: #f1f0f0;
     border-color: #f1f0f0;
+    border-radius: 0;
 }
 
 /*HEADER*/
@@ -67,7 +72,7 @@ header a{
     font-size: 1.1em;
 }
 
-header span {
+header i {
     color: #fff;
     font-size: .8em;
     float: right;
@@ -121,22 +126,62 @@ nav input[type=checkbox]:checked ~ ul.menu {
 
 /*Main Content*/
 
-#featuredContent {
-    background: url(../images/banner-1400px.jpg);
+#hero {
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
-#featuredContent .one-half {
+#hero .one-half {
     margin-top:10%;
     margin-bottom: 10%;
+    background: rgba(255,255,255,.7);
+    padding: 5%;
+    text-align: center;
+    color: #6a304c;
 }
 
-.button-primary {
-    
+/*Primary Content*/
+
+.primaryContent {
+    background: url(../images/banner-1400px.jpg);
 }
 
+.primaryContent .button.button-primary{
+    background-color: #00C5CD;
+    border-color: #00C5CD;
+}
 
+/*Secondary Content*/
+
+.secondaryContent {
+    background: url(../images/jordan-whitt-145327.jpg);
+}
+
+.secondaryContent .button.button-primary{
+    background-color: #FFB73D;
+    border-color: #FFB73D;
+}
+
+/*tertiaryContent*/
+.tertiaryContent {
+    background: url(../images/henri-meilhac-155942.jpg);
+}
+
+.tertiaryContent .button.button-primary{
+    background-color: #EA8571;
+    border-color: #EA8571;
+}
+
+/*footer*/
+.footerBanner {
+    background-color: #6a304c;
+}
+
+.footerBanner .container {
+    padding-top: 1%;
+}
+ 
 
 
 /* Larger than mobile */
