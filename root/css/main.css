@@ -135,7 +135,7 @@ nav input[type=checkbox]:checked ~ ul.menu {
     background-position: center;
 }
 
-#hero .one-half {
+#hero .one-half, #donateHeaderTextArea .one-half {
     margin-top:10%;
     margin-bottom: 10%;
     background: rgba(255,255,255,.7);
@@ -215,6 +215,95 @@ section:last-child {
 .footerBanner .container {
     padding-top: 1%;
 }
+
+
+/*Donate Page*/
+
+.donateHeader {
+    background: url(../images/hands.png) no-repeat center;
+    background-size: cover;
+}
+#donationOptions h3 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #6a304c;
+    border-bottom: solid 1px #6a304c;
+}
+
+.wrapper {
+    display: block;
+    grid-gap: 10px;
+    margin: 80px 0;
+}
+
+.box {
+  color: green;
+  border-radius: 5px;
+  padding: 20px;
+    
+/* border transition */
+  position:relative;
+  text-align: center;
+  transition: 0.5s;
+  padding: 20px;
+  -webkit-transition:0.5s; /* Safari */
+    
+/* background-color transition */
+  -webkit-transition-property: background-color; /* Safari */
+  -webkit-transition-duration: 2s; /* Safari */
+  transition-property: background-color;
+  transition-duration: 2s;
+}
+
+.box:before, .box::after {
+  width: 100%;
+  height:100%;
+  z-index: 3;
+  content:'';
+  position: absolute;
+  top:0;
+  left:0;
+  box-sizing: border-box;
+  -webkit-transform: scale(0); /* Safari */
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.box:before {
+  border-bottom: 1px solid #6a304c;
+  border-left: 1px solid #6a304c;
+  -webkit-transform-origin: 0 100%; /* Safari */
+}
+
+.box:after {
+  border-top: 1px solid #6a304c;
+  border-right: 1px solid #6a304c;
+  -webkit-transform-origin: 100% 0%; /* Safari */
+}
+
+.box:hover::after, .box:hover::before {
+  -webkit-transform: scale(1); /* Safari */
+}
+.box:hover {
+    background-color: #fff;
+}
+
+
+.box img, .box .button {
+    display: block;
+    margin: 0 auto;
+}
+
+.box h4 {
+    text-align: center;
+    color: #6a304c;
+    margin-top: 15px;
+}
+
+.box p {
+    color: #0083A1;
+}
  
 
 
@@ -227,6 +316,12 @@ section:last-child {
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-    
+   /*Donate Page*/ 
+    .wrapper {
+          display: grid;
+          grid-template-columns: 33% 33% 33%;
+    }
     
 }
+
+
