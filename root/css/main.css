@@ -60,6 +60,7 @@ header {
 }
 #logo {
     margin: .2em .2em;
+    display: inline;
 }
 .banner img {
     max-width: 100%;
@@ -86,7 +87,7 @@ header i {
 
 /*nav with JS */
 /* Reset */
-ul {
+.menu ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -131,13 +132,18 @@ ul {
   padding: 10px 10px;
 }
 
-/* lable */
+/* lable Bars */
  nav input[type=checkbox] {
     display: none;
 }
  nav input[type=checkbox]:checked ~ .menu {
     display: block;
 }
+
+.fa-bars {
+    float: right;
+}
+
 
 
 
@@ -146,10 +152,10 @@ ul {
 @media screen and (min-width: 700px) {
   
   /* Hide the NAvigation Lable */
-  /* ???? It is not working?!*/
-     .fa fa-bars {
-        display: none;
+     label.showMenu {
+     display: none;
     }
+
     
   /* Hide the menu toggle */
   .menu-toggle {
