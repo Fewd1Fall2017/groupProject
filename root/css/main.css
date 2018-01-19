@@ -669,6 +669,13 @@ footer .row div:nth-of-type(n+4){
 
 /****************SUPPORT*************************/
 
+#supportMain {
+    background: url(/images/eye-for-ebony-415494.jpg) no-repeat;
+    background-color: #6a304c;
+    background-blend-mode: luminosity;
+    background-size: cover;
+}
+
 #support .one-half.featured{
     margin-top:10%;
     margin-bottom: 10%;
