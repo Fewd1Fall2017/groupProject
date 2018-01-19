@@ -594,6 +594,11 @@ footer li a:hover {
     footer .two.columns {
         margin-left: 0;
     }
+    
+    .footerBanner a{
+        float: right;
+    }
+}
 
 
 
@@ -617,9 +622,7 @@ footer .row div:nth-of-type(n+4){
     margin-left: 2%;
 }
     
-    .footerBanner a{
-        float: right;
-    }
+    
 
 
 }
