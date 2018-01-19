@@ -296,6 +296,8 @@ section:last-child {
 /*Events*/
 .hLessLineheight {
     line-height: .35;
+    padding-top: 10px;
+    border-radius: ;
 }
 
 .flex {
@@ -303,7 +305,7 @@ section:last-child {
     display: flex;
     flex-direction: column;
 }
-.row:after {
+.eventsCol:after {
     content: "";
     clear: both;
     display: block;
@@ -313,6 +315,18 @@ section:last-child {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+.eventsCol {
+    background-color: #e3d8d8;
+    margin: 5px;
+    padding: 5px;
+}
+
+.eventsHtwo {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
 /***********************FOOTER*************************/
 
 footer, footer a {
@@ -608,7 +622,7 @@ footer li a:hover {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .row {
+    .eventsCol {
         padding: 0 15px;
         flex-basis: 43%;
     }
