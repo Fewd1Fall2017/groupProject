@@ -306,7 +306,7 @@ nav ul li ul input[type=checkbox]:checked ~ ul.drop {display: block;
     background-position: center;
 }
 
-#hero .one-half, #donateHeaderTextArea .one-half {
+#hero .one-half, #donateHeaderTextArea .one-half, {
     margin-top:10%;
     margin-bottom: 10%;
     background: rgba(255,255,255,.7);
@@ -665,6 +665,17 @@ footer .row div:nth-of-type(n+4){
 
     
 }
+
+
+/****************SUPPORT*************************/
+
+#support .one-half.featured{
+    margin-top:10%;
+    margin-bottom: 10%;
+    background: rgba(255,255,255,.7);
+    padding: 5%;
+    text-align: center;
+    color: #6a304c;
 }
 
 
