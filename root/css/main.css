@@ -306,7 +306,7 @@ nav ul li ul input[type=checkbox]:checked ~ ul.drop {display: block;
     background-position: center;
 }
 
-#hero .one-half, #donateHeaderTextArea .one-half, {
+#hero .one-half, #donateHeaderTextArea .one-half {
     margin-top:10%;
     margin-bottom: 10%;
     background: rgba(255,255,255,.7);
