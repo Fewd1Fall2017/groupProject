@@ -86,6 +86,8 @@ header i {
 
 
 /*nav with JS */
+/*Make the lable in linw with the log*/
+
 /* Reset */
 .menu ul {
   list-style: none;
@@ -148,97 +150,8 @@ header i {
 
 
 /*Larger screen*/
+/*b0ttom of the page*/
 
-@media screen and (min-width: 700px) {
-  
-  /* Hide the NAvigation Lable */
-     label.showMenu {
-     display: none;
-    }
-/* move the nav text adjust to the logo*/
-    .menu, .nav-menu, .main-navigation {
-        display: inline-block;
-    }
-    
-  /* Hide the menu toggle */
-  .menu-toggle {
-    display: none;
-  }
-
-  
-  /* Make sure the menu items display */
-  .main-navigation a {
-    display: inline-block;
-  }
-  
-  .main-navigation .menu {
-    display: block;
-  }
-  
-  .main-navigation li {
-    display: inline-block;
-    position: relative /* Sub menus are absolutely positioned relative to this*/
-  }
-  
-  /* Display sub-menu items vertically */
-  .main-navigation ul ul li {
-    float: none;
-  }
-  
-  .main-navigation ul ul a {
-    width: 150px;
-  }
-  
-  /* Position sub-menus below their parent, hidden by default */
-  .main-navigation ul ul {
-    background-color: #6a304c;
-    left: -999em;
-    margin: 0;
-    position: absolute;
-    top: 65%;
-    z-index: 1000; /* Make sure sub menus display on top, without this there can be issues with multi-line menus */
-    opacity: 0.1;
-    transition: top 0.2s, opacity 0.2s;
-  }
-
-  /* Displays sub menus on hover */
-  .main-navigation li:hover > ul,
-  .main-navigation li.focus > ul {
-    opacity: 1;
-    left: auto;
-    top: 100%;
-    transition: top 0.2s, opacity 0.3s;
-  }
-
-  /* Highlight menu options on hover */
-  .main-navigation .nav-menu > li:hover > a,
-  .main-navigation .nav-menu > li.focus > a {
-    
-    text-decoration: underline;
-  }
-
-  /* Bring 3rd level+ menus to the right, not below */  
-  
-  .main-navigation .children li > ul {
-    top: 45%;
-  }
-  
-  .main-navigation .children li:hover > ul,
-  .main-navigation .children li.focus > ul{
-    left: 100%;
-    top: 0;
-  }
-  
-  /* Within sub-menus change the background on the <a> tag so it doesn't remain highlighted */
-  .main-navigation ul ul a:hover,
-  .main-navigation ul ul li.focus > a {
-  text-decoration: underline;
-  }
-  
-  .main-navigation ul ul {
-    margin-left: 0;
-  }
-}
 
 /*End Nav With JS*/
 
@@ -378,6 +291,27 @@ img {
 
 section:last-child {
     border-bottom: 1px solid gray;
+}
+
+/*Events*/
+.hLessLineheight {
+    line-height: .35;
+}
+
+.flex {
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.volenteer, .heart {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 /***********************FOOTER*************************/
 
@@ -573,6 +507,117 @@ footer li a:hover {
     
 }
 
+
+/***Larger screen main navigation of the website + event + about us + storeies larger screen style ***/
+
+@media screen and (min-width: 700px) {
+  /* Navigation */
+    
+  /* Hide the NAvigation Lable */
+     label.showMenu {
+     display: none;
+    }
+/* move the nav text adjust to the logo*/
+    .menu, .nav-menu, .main-navigation {
+        display: inline-block;
+    }
+    
+  /* Hide the menu toggle */
+  .menu-toggle {
+    display: none;
+  }
+
+  
+  /* Make sure the menu items display */
+  .main-navigation a {
+    display: inline-block;
+  }
+  
+  .main-navigation .menu {
+    display: block;
+  }
+  
+  .main-navigation li {
+    display: inline-block;
+    position: relative /* Sub menus are absolutely positioned relative to this*/
+  }
+  
+  /* Display sub-menu items vertically */
+  .main-navigation ul ul li {
+    float: none;
+  }
+  
+  .main-navigation ul ul a {
+    width: 150px;
+  }
+  
+  /* Position sub-menus below their parent, hidden by default */
+  .main-navigation ul ul {
+    background-color: #6a304c;
+    left: -999em;
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    z-index: 1000; /* Make sure sub menus display on top, without this there can be issues with multi-line menus */
+    opacity: 0.1;
+    transition: top 0.2s, opacity 0.2s;
+  }
+
+  /* Displays sub menus on hover */
+  .main-navigation li:hover > ul,
+  .main-navigation li.focus > ul {
+    opacity: 1;
+    left: auto;
+    top: 100%;
+    transition: top 0.2s, opacity 0.3s;
+  }
+
+  /* Highlight menu options on hover */
+  .main-navigation .nav-menu > li:hover > a,
+  .main-navigation .nav-menu > li.focus > a {
+    
+    text-decoration: underline;
+  }
+
+  /* Bring 3rd level+ menus to the right, not below */  
+  
+  .main-navigation .children li > ul {
+    top: 45%;
+  }
+  
+  .main-navigation .children li:hover > ul,
+  .main-navigation .children li.focus > ul{
+    left: 100%;
+    top: 0;
+  }
+  
+  /* Within sub-menus change the background on the <a> tag so it doesn't remain highlighted */
+  .main-navigation ul ul a:hover,
+  .main-navigation ul ul li.focus > a {
+  text-decoration: underline;
+  }
+  
+  .main-navigation ul ul {
+    margin-left: 0;
+  }
+/* END NNNNNNNNN NAVIGATION */
+    
+    
+/*Events*/
+    .flex {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .row {
+        padding: 0 15px;
+        flex-basis: 43%;
+    }
+    .hLessLineheight {
+    line-height: .5;
+        font-size: 1.5em;
+}
+}
+/*** end ***/
 
 /* Larger than tablet */
 @media (min-width: 750px) {
