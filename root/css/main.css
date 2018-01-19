@@ -56,6 +56,7 @@ h1, h2, h3, h4, h5, h6{
 header {
      background-color: #6a304c;
      padding: 5px;      /* It makes the border around the nav when it is shown */
+    font-family: 'Rubik', sans-serif; 
     
 }
 #logo {
@@ -447,12 +448,15 @@ footer .two.columns {
     margin-bottom: 2.5rem;
 }
 
+
 footer .row div:nth-of-type(n+3){
     width: 30%;
 }
+
 footer .row div:nth-of-type(n+4){
     margin-left: 5%;
 }
+
 footer address {
     font-style: normal;
 }
@@ -474,7 +478,7 @@ footer li a:hover {
 .footerBanner {
     color: #f1f0f0;
     background-color: #6a304c;
-    text-align: center;
+
 }
 
 .footerBanner .container {
@@ -580,11 +584,56 @@ footer li a:hover {
 
 
 /* Larger than mobile */
-@media (min-width: 426px) {
+@media (min-width: 550px) {
     
 /*****************FOOTER***********************/
-footer .two.columns {
+    
+   footer .four.columns, footer .two.columns {
+    width: 100%;
+}
+    footer .two.columns {
+        margin-left: 0;
+    }
+
+
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+   /*Donate Page*/ 
+    .wrapper {
+          display: grid;
+          grid-template-columns: 33% 33% 33%;
+    }
+    
+/*************FOOTER************/
+    
+    
+footer .row div:nth-of-type(n+3){
+    width: 32%;
+}
+
+
+footer .row div:nth-of-type(n+4){
+    margin-left: 2%;
+}
+    
+    .footerBanner a{
+        float: right;
+    }
+
+
+}
+
+@media (min-width: 974px){
+        
+    footer .four.columns {
+        width: 30.6666666667%;
+    }
+    
+    footer .two.columns {
     margin-bottom: 0;
+    width: 13.3333333333%;
+    margin-left: 4%;
 }
 
 footer .row div:nth-of-type(n+3){
@@ -601,21 +650,18 @@ footer .row div:nth-of-type(n+4){
     .footerBanner a{
         float: right;
     }
+    
+
+    .footerBanner{
+        text-align: left;
+    }
+    
+    .footerBanner a{
+        float: right;
+    }
 
     
 }
-
-
-/* Larger than tablet */
-@media (min-width: 750px) {
-   /*Donate Page*/ 
-    .wrapper {
-          display: grid;
-          grid-template-columns: 33% 33% 33%;
-    }
-    
-/*************FOOTER************/
-
 }
 
 
