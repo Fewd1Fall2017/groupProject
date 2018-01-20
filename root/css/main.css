@@ -132,7 +132,7 @@ nav input[type=checkbox]:checked ~ ul.menu {
     background-position: center;
 }
 
-#hero .one-half, #donateHeaderTextArea .one-half {
+#hero .one-half, #donateHeaderTextArea .one-half, #volunteerHeaderTextArea .one-half {
     margin-top:10%;
     margin-bottom: 10%;
     background: rgba(255,255,255,.7);
@@ -173,23 +173,13 @@ nav input[type=checkbox]:checked ~ ul.menu {
     border-color: #EA8571;
 }
 
-/*footer*/
-.footerBanner {
-    background-color: #6a304c;
-}
-
-.footerBanner .container {
-    padding-top: 1%;
-}
-
-
-/*Donate Page*/
+/***************************************** Donate Page *******************************************************/
 
 .donateHeader {
     background: url(../images/hands.png) no-repeat center;
     background-size: cover;
 }
-#donationOptions h3 {
+#donationOptions h3 {  
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -270,24 +260,115 @@ nav input[type=checkbox]:checked ~ ul.menu {
 .box p {
     color: #0083A1;
 }
- 
 
 
-/* Larger than mobile */
-@media (min-width: 400px) {
-    
-    
+/***************************************** Volunteer Page *******************************************************/
+
+
+.subHeader h5, h3 {  
+    text-align: center;
+    color: #6a304c;
+}
+
+.subHeader h3 {
+    border-bottom: solid 1px #6a304c;
+    padding-bottom: 15px;
+    padding-top: 60px;
+}
+
+.volunteerHeader {
+    background: url(../images/volunteer.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.front {
+    background-color: #FFB73D;
+    border-radius: 5px;
+    text-align: center;
+}
+.front img {
+    padding-top: 30px;
+}
+
+.front h4 {
+    padding-top: 10px;
+}
+
+.back {
+    background-color: #EA8571;
+    border-radius: 5px;
+    padding: 20px;
+    height: 200px !important;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.back p {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.front h4 {
+    color: #fff;
+}
+
+.card {
+    margin: 80px 50px;
+    display: table;
 }
 
 
-/* Larger than tablet */
-@media (min-width: 750px) {
-   /*Donate Page*/ 
+
+
+/***************************************** Footer *******************************************************/
+.footerBanner {
+    background-color: #6a304c;
+}
+
+.footerBanner .container {
+    padding-top: 1%;
+}
+
+
+/***************************************** Larger than mobile *******************************************************/
+@media (min-width: 768px) {
+/****************** Volunteer Page ***************/    
+    #volunteerOpp {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .card {
+    margin: 30px 50px;
+}
+    
+    }
+
+
+
+/***************************************** Larger than tablet *******************************************************/
+@media (min-width: 1240px) {
+/****************** Donate Page *******************/
+
     .wrapper {
           display: grid;
           grid-template-columns: 33% 33% 33%;
     }
+
     
+/****************** Volunteer Page ***************/    
+
+    #volunteerOpp {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .card {
+        height: 320px !important;
+    }
 }
+
+
+
+
 
 
