@@ -291,7 +291,16 @@ img {
 }
 
 .aboutHtow {
-    margin-top: 10px;
+    
+     margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.aboutPar {
+    margin-left: 30px;
+
 }
 
 section:last-child {
@@ -349,6 +358,86 @@ section:last-child {
     background-size: cover;
     padding-bottom: 8%;
 }
+
+/*About second version*/
+.aboutCol {
+    margin: 5px;
+    padding: 5px;
+}
+/* form in the about page */
+*:focus {
+    outline: none;
+    background-color: #fff;
+}
+::-webkit-input-placeholder {
+    color: #00C5CD;
+}
+:-ms-input-placeholder {
+    color: #00C5CD;
+}
+::-moz-placeholder {
+    color: #00C5CD;
+}
+::placeholder {
+    color: #00C5CD;
+}
+fieldset {
+    border: none;
+    border-top: solid 1px #00C5CD;
+}
+legend {
+    font-weight: bold;
+    padding: 0 .25em;
+    
+}
+.contact_form ul {
+    list-style-type: none;
+}
+.contact_form li {
+    padding: .1em;
+    margin: 0;
+}
+.contact_form li:last-child {
+    border: none;
+}
+.contact_form label {
+    max-width: 150px;
+    min-width: 80px;
+    margin-top: 3px;
+    display: inline-block;
+    padding: 3px;
+    text-align: left;
+    vertical-align: top;
+}
+.contact_form input {
+    min-width: 220px;
+    height: 30px;
+}
+.contact_form textarea {
+    min-width: 220px;
+    height: 70px;
+}
+.contact_form input, .contact_form textarea {
+    border: solid 1px #999;
+    box-shadow: 0 0 3px #ccc, 0 10px 15px #dedede inset;
+    padding: 5px 8px;
+    border-radius: 5px;
+} 
+.contact_form input:focus, .contact_form textarea:focus {
+    box-shadow: 0 0 3px #999, 0 10px 15px rgba(255,255,255,.5) inset;
+}
+.contact_form button.submit {
+    background-color: #00C5CD;
+    background: linear-gradient(to top, #bbdfd9, #00C5CD);
+    color: #666;
+    border: solid 1px #999;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    font-weight: bold;
+}
+
+/* END FORM IN ABOUT PAGE */
+
 /***********************FOOTER*************************/
 
 footer, footer a {
@@ -680,6 +769,13 @@ footer li a:hover {
         font-size: 1.5em;
 }
 }
+
+/*AboutUs second version*/
+    .aboutCol {
+        padding: 0 15px;
+        flex-basis: 42%;
+    }
+
 /*** end ***/
 
 /* Larger than tablet */
@@ -690,7 +786,7 @@ footer li a:hover {
           grid-template-columns: 33% 33% 33%;
     }
     
-/*************FOOTER************/
+/*************FOOTER************/ /* +++ */ /*  About Us form in @ media min width 974*/
     
     
 footer .row div:nth-of-type(n+3){
@@ -743,6 +839,12 @@ footer .row div:nth-of-type(n+4){
         float: right;
     }
 
+    /******* about us form ******/
+    .contact_form label {
+
+    text-align: right;
+    vertical-align: top;
+}
     
 }
 
