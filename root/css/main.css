@@ -56,6 +56,7 @@ h1, h2, h3, h4, h5, h6{
 header {
      background-color: #6a304c;
      padding: 5px;      /* It makes the border around the nav when it is shown */
+    font-family: 'Rubik', sans-serif; 
     
 }
 #logo {
@@ -397,6 +398,19 @@ footer input[type="submit"].button-primary:hover{
 
 /***********FOOTER NAVIGATION******************/
 
+footer .two.columns {
+    margin-bottom: 2.5rem;
+}
+
+
+footer .row div:nth-of-type(n+3){
+    width: 30%;
+}
+
+footer .row div:nth-of-type(n+4){
+    margin-left: 5%;
+}
+
 footer address {
     font-style: normal;
 }
@@ -418,6 +432,7 @@ footer li a:hover {
 .footerBanner {
     color: #f1f0f0;
     background-color: #6a304c;
+
 }
 
 .footerBanner .container {
@@ -426,6 +441,8 @@ footer li a:hover {
 
 .footerBanner a {
     color: #f1f0f0;
+    display: inline-block;
+    padding-bottom: 2%;
 }
 
 
@@ -521,11 +538,22 @@ footer li a:hover {
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {
+@media (min-width: 550px) {
     
-
+/*****************FOOTER***********************/
     
+   footer .four.columns, footer .two.columns {
+    width: 100%;
 }
+    footer .two.columns {
+        margin-left: 0;
+    }
+    
+    .footerBanner a{
+        float: right;
+    }
+}
+
 
 
 /***Larger screen main navigation of the website + event + about us + storeies larger screen style ***/
@@ -647,6 +675,80 @@ footer li a:hover {
           grid-template-columns: 33% 33% 33%;
     }
     
+/*************FOOTER************/
+    
+    
+footer .row div:nth-of-type(n+3){
+    width: 32%;
+}
+
+
+footer .row div:nth-of-type(n+4){
+    margin-left: 2%;
+}
+    
+    
+
+
+}
+
+@media (min-width: 974px){
+        
+    footer .four.columns {
+        width: 30.6666666667%;
+    }
+    
+    footer .two.columns {
+    margin-bottom: 0;
+    width: 13.3333333333%;
+    margin-left: 4%;
+}
+
+footer .row div:nth-of-type(n+3){
+    width: 13.3333333333%;
+}
+footer .row div:nth-of-type(n+4){
+    margin-left: 4%;
+}
+
+    .footerBanner{
+        text-align: left;
+    }
+    
+    .footerBanner a{
+        float: right;
+    }
+    
+
+    .footerBanner{
+        text-align: left;
+    }
+    
+    .footerBanner a{
+        float: right;
+    }
+
+    
+}
+
+
+/****************SUPPORT*************************/
+
+#supportMain {
+    background: url(/images/eye-for-ebony-415494.jpg) no-repeat;
+    background-color: #6a304c;
+    background-blend-mode: luminosity;
+    background-size: cover;
+    padding-bottom: 8%;
+}
+
+#support .one-half.featured{
+    margin-top:10%;
+    margin-bottom: 10%;
+    background: rgba(255,255,255,.7);
+    padding: 5%;
+    text-align: center;
+    color: #6a304c;
 }
 
 

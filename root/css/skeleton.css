@@ -370,6 +370,32 @@ form {
 .u-pull-left {
   float: left; }
 
+/* Positioning */
+
+.u-center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/**
+ * Note:
+ *
+ * Nest this class inside something with `position: relative` to have
+ * your element centered relative to its containing element.
+ *
+ * Use this class without nesting it to have your element centered relative
+ * to the viewport.
+ */
+
+.u-center-abs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
 
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -378,6 +404,34 @@ hr {
   margin-bottom: 3.5rem;
   border-width: 0;
   border-top: 1px solid #E1E1E1; }
+
+.u-img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Type */
+
+.u-text-center {
+  text-align: center !important;
+}
+
+.u-text-right {
+  text-align: right !important;
+}
+
+.u-text-left {
+  text-align: left !important;
+}
+
+.u-text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
 
 
 /* Clearing
