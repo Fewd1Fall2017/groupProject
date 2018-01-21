@@ -336,7 +336,7 @@ section:last-child {
 /*Stories*/
 .storiesHeader {
     background: url(../images/stories-head.jpg) no-repeat;
-    background-color: #decdb0;
+    background-color: #e3d8d8;
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 8%;
