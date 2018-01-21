@@ -333,7 +333,22 @@ section:last-child {
     margin-bottom: 10px;
 }
 
+/*Stories*/
+.storiesHeader {
+    background: url(../images/stories-head.jpg) no-repeat;
+    background-color: #decdb0;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 8%;
+}
 
+.StoriesReadMore {
+    background: url(../images/stories-head.jpg) no-repeat;
+    background-color: #decdb0;
+    background-blend-mode: screen;
+    background-size: cover;
+    padding-bottom: 8%;
+}
 /***********************FOOTER*************************/
 
 footer, footer a {
