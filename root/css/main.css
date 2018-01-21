@@ -265,6 +265,9 @@ nav ul li ul input[type=checkbox]:checked ~ ul.drop {display: block;
 /*END OF MAIN CONTENT HOME PAGE*/
 
 
+
+
+
 /*About Us*/
 img {
     max-width: 100%;
@@ -303,9 +306,12 @@ img {
 
 }
 
-section:last-child {
-    border-bottom: 1px solid gray;
+.aboutBg{
+    background-color: #e9e9e9;
+    
 }
+
+
 
 
 /*Events*/
@@ -331,7 +337,7 @@ section:last-child {
     padding-bottom: 5px;
 }
 .eventsCol {
-    background-color: #e3d8d8;
+    background-color: #e9e9e9;
     margin: 5px;
     padding: 5px;
 }
@@ -359,10 +365,16 @@ section:last-child {
     padding-bottom: 8%;
 }
 
+.storiesCol {
+    background-color: #e9e9e9;
+    margin: 5px;
+    padding: 5px;
+}
 /*About second version*/
 .aboutCol {
     margin: 5px;
     padding: 5px;
+    
 }
 /* form in the about page */
 *:focus {
@@ -767,15 +779,18 @@ footer li a:hover {
     .hLessLineheight {
     line-height: 1;
         font-size: 1.5em;
-}
-}
+    }
 
+        .storiesCol {
+        padding: 0 15px;
+        flex-basis: 42%;
+    }
 /*AboutUs second version*/
     .aboutCol {
         padding: 0 15px;
         flex-basis: 42%;
     }
-
+}
 /*** end ***/
 
 /* Larger than tablet */
@@ -839,15 +854,26 @@ footer .row div:nth-of-type(n+4){
         float: right;
     }
 
-    /******* about us form ******/
+                                   /******* about us form ******/
     .contact_form label {
 
     text-align: right;
     vertical-align: top;
 }
+
     
 }
 
+
+@media (min-width: 1200px){
+    
+    
+                               /******* stories columns ******/
+    .storiesCol {
+    padding: 0 15px;
+    flex-basis: 29%;
+    }
+}
 
 /****************SUPPORT*************************/
 
