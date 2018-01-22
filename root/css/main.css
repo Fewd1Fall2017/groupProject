@@ -255,7 +255,7 @@ nav ul li ul input[type=checkbox]:checked ~ ul.drop {display: block;
     background-position: center;
 }
 
-#hero .one-half, #donateHeaderTextArea .one-half {
+#hero .one-half, #donateHeaderTextArea .one-half, #volunteerHeaderTextArea .one-half {
     margin-top:10%;
     margin-bottom: 10%;
     background: rgba(255,255,255,.7);
@@ -710,6 +710,63 @@ footer li a:hover {
     padding: 4px 10px;
 }
  
+/***************************************** Volunteer Page *******************************************************/
+
+
+.subHeader h5, h3 {  
+    text-align: center;
+    color: #6a304c;
+}
+
+.subHeader h3 {
+    border-bottom: solid 1px #6a304c;
+    padding-bottom: 15px;
+    padding-top: 60px;
+}
+
+.volunteerHeader {
+    background: url(../images/volunteer.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.front {
+    background-color: #FFB73D;
+    border-radius: 5px;
+    text-align: center;
+}
+.front img {
+    padding-top: 30px;
+}
+
+.front h4 {
+    padding-top: 10px;
+}
+
+.back {
+    background-color: #EA8571;
+    border-radius: 5px;
+    padding: 20px;
+    height: 200px !important;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.back p {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.front h4 {
+    color: #fff;
+}
+
+.card {
+    margin: 80px 50px;
+    display: table;
+}
+
+
 
 
 /* Larger than mobile */
@@ -881,6 +938,14 @@ footer li a:hover {
           display: grid;
           grid-template-columns: 33% 33% 33%;
     }
+    /****************** Volunteer Page ***************/    
+    #volunteerOpp {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .card {
+    margin: 30px 50px;
+    }
     
 /*************FOOTER************/ /* +++ */ /*  About Us form in @ media min width 974*/
     
@@ -953,6 +1018,16 @@ footer .row div:nth-of-type(n+4){
     .storiesCol {
     padding: 0 15px;
     flex-basis: 29%;
+    }
+    
+    /****************** Volunteer Page ***************/    
+
+    #volunteerOpp {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .card {
+        height: 320px !important;
     }
 }
 
