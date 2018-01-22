@@ -199,7 +199,7 @@ margin-right: -5px;
     background-position: center;
 }
 
-#hero .one-half, #donateHeaderTextArea .one-half, #volunteerHeaderTextArea .one-half {
+#hero .one-half, .textArea .one-half {
     margin-top:10%;
     margin-bottom: 10%;
     background: rgba(255,255,255,.7);
@@ -644,16 +644,25 @@ footer li a:hover {
   .accordion-content {
       display: none;
 }
-  .accordion-content.default {
-      display: block;
-}
 .accordion-toggle {
     background-color: #6a304c;
 }
-#accordion h4 {
+#accordion h5 {
     color: #fff;
     padding: 4px 10px;
 }
+#accordion h5 img {
+    margin-top: 4px;
+    
+}
+.arrowRotate {
+    transform: rotate(90deg);
+}
+
+#donationOptions h6 {
+    margin: 10px 0;
+}
+
  
 /***************************************** Volunteer Page *******************************************************/
 
