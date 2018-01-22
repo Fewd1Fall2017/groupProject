@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6{
 .button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
     color: #6a304c;
     background-color: #f1f0f0;
-    border-color: #f1f0f0;
+    border-color: #6a304c;
     border-radius: 0;
 }
 
@@ -186,62 +186,6 @@ margin-right: -5px;
 
 
 /*Larger screen Moves to b0ttom of the page*/
-/*End Nav With JS*/
-
-
-
-
-/*previous versions of navigation */
-/*navigation mobil first whithout drop down*/
-
-/*
-
-nav ul {
-    list-style-type: none;
-    display: none;
-}
-nav li {
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
-nav li a:hover {
-    color:#6a304c;
-    background-color: #f1f0f0;
-}
-nav li a {
-    color: #f1f0f0;
-    padding: .3em;
-    display: block;
-}
- nav input[type=checkbox] {
-    display: none;
-}
- nav input[type=checkbox]:checked ~ ul.menu {
-    display: block;
-}
-.showMenu {
-    background-color: #6a304c;
-    text-align: right;
-    color: #fff;
-    cursor: pointer;
-}
-
-.fa-bars {
-    font-size: 2.8em;
-
-}
-*/
-
-/*  drop down mobil first*/
-
-/*
-nav ul li ul input[type=checkbox] {display: none;}
-nav ul li ul input[type=checkbox]:checked ~ ul.drop {display: block;
-}
-*/
 
 
 /* ---- end nav ---- */
@@ -334,6 +278,7 @@ img {
      margin-top: 10px;
     margin-left: 30px;
     margin-bottom: 10px;
+    text-align: left;
     
 }
 
@@ -911,6 +856,21 @@ footer li a:hover {
         padding-top: 15px;
     }
     
+    
+    /*Larger Screen Fixed NAV*/
+     header {     /* To make the navigation fixed for the Larger screen */
+        position: fixed;
+        z-index: 20;
+        width: 100%;
+       margin-top: -77px
+     }
+     main {
+       margin-top: 77px;
+    
+      
+}
+    
+
 /* END NNNNNNNNN NAVIGATION */
     
     
@@ -1044,25 +1004,36 @@ footer .row div:nth-of-type(n+4){
 
 #supportMain {
     background: url(/images/eye-for-ebony-415494.jpg) no-repeat;
-    background-color: #6a304c;
-    background-blend-mode: luminosity;
     background-size: cover;
     padding-bottom: 8%;
 }
 
-#support .one-half.featured{
-    margin-top:10%;
-    margin-bottom: 10%;
-    background: rgba(255,255,255,.7);
-    padding: 5%;
-    text-align: center;
-    color: #6a304c;
+#supportSecondary img {
+    margin: 0 auto;
+    border-radius: 100%;
 }
 
-#supportSecondary .one-half.column.featured{
+#supportMain a:focus {
+    background: none;
+}
+
+#support .featured{
+    background: rgba(255,255,255,.7);
+    color: #6a304c;
+    padding: 5%;
+}
+
+#support .one-half.featured {
+    margin-top:10%;
+    margin-bottom: 10%;
+    text-align: center; 
+}
+
+#supportSecondary .one-third.column, #supportSecondary .two-thirds.column {
     margin-top: 5%;
     margin-bottom: 5%;
-    min-height: 500px;
 }
+
+
 
 
