@@ -186,62 +186,6 @@ margin-right: -5px;
 
 
 /*Larger screen Moves to b0ttom of the page*/
-/*End Nav With JS*/
-
-
-
-
-/*previous versions of navigation */
-/*navigation mobil first whithout drop down*/
-
-/*
-
-nav ul {
-    list-style-type: none;
-    display: none;
-}
-nav li {
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
-nav li a:hover {
-    color:#6a304c;
-    background-color: #f1f0f0;
-}
-nav li a {
-    color: #f1f0f0;
-    padding: .3em;
-    display: block;
-}
- nav input[type=checkbox] {
-    display: none;
-}
- nav input[type=checkbox]:checked ~ ul.menu {
-    display: block;
-}
-.showMenu {
-    background-color: #6a304c;
-    text-align: right;
-    color: #fff;
-    cursor: pointer;
-}
-
-.fa-bars {
-    font-size: 2.8em;
-
-}
-*/
-
-/*  drop down mobil first*/
-
-/*
-nav ul li ul input[type=checkbox] {display: none;}
-nav ul li ul input[type=checkbox]:checked ~ ul.drop {display: block;
-}
-*/
 
 
 /* ---- end nav ---- */
@@ -901,6 +845,19 @@ footer li a:hover {
     .main-navigation ul li ul { /*To make the ul drop down menue inline with the main navigation */
         padding-top: 15px;
     }
+    
+    
+    /*Larger Screen Fixed NAV*/
+     header {     /* To make the navigation fixed for the Larger screen */
+        position: fixed;
+        z-index: 20;
+        width: 100%;
+       margin-top: -77px
+     }
+     main {
+       margin-top: 77px;
+      
+}
     
 /* END NNNNNNNNN NAVIGATION */
     
