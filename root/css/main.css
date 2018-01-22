@@ -1041,19 +1041,22 @@ footer .row div:nth-of-type(n+4){
     padding-bottom: 8%;
 }
 
-#support .one-half.featured{
-    margin-top:10%;
-    margin-bottom: 10%;
+#support .featured{
     background: rgba(255,255,255,.7);
-    padding: 5%;
-    text-align: center;
     color: #6a304c;
+    padding: 5%;
 }
 
-#supportSecondary .one-half.column.featured{
+#support .one-half{
+    margin-top:10%;
+    margin-bottom: 10%;
+    
+    text-align: center; 
+}
+
+#supportSecondary .one-third.column, #supportSecondary .two-thirds.column {
     margin-top: 5%;
     margin-bottom: 5%;
-    min-height: 500px;
 }
 
 
