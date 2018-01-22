@@ -992,8 +992,6 @@ footer .row div:nth-of-type(n+4){
 
 #supportMain {
     background: url(/images/eye-for-ebony-415494.jpg) no-repeat;
-    background-color: #6a304c;
-    background-blend-mode: luminosity;
     background-size: cover;
     padding-bottom: 8%;
 }
