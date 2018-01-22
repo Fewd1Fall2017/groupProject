@@ -112,8 +112,9 @@ header i {
 .main-navigation a {
   color: inherit;
   display: block;
-  padding: 10px 10px;
+  padding: 1px 10px;
   text-decoration: none;
+    
 }
 
 .toggled-on .menu {
@@ -151,14 +152,30 @@ header i {
 }
 
 
+  .main-navigation ul ul a:hover,
+  .main-navigation ul ul li.focus > a {
+  text-decoration: underline;
+  background-color: #289ea9;
+  }
+
+/*mobil fisrt fixed a colors and paddings*/
+
+.main-navigation ul ul li  {
+margin: 1px -5px  0px -25px;
+  
+}
 
 
-/*Larger screen*/
-/*b0ttom of the page*/
 
 
+
+/*Larger screen Moves to b0ttom of the page*/
 /*End Nav With JS*/
 
+
+
+
+/*previous versions of navigation */
 /*navigation mobil first whithout drop down*/
 
 /*
@@ -767,6 +784,13 @@ footer li a:hover {
   .main-navigation ul ul {
     margin-left: 0;
   }
+    
+    
+/*after changing the margins in mobil first make it like before for larger screen*/
+    .main-navigation ul ul li  {
+margin: 0px 0px  0px 0px;
+  
+}
 /* END NNNNNNNNN NAVIGATION */
     
     
