@@ -154,6 +154,24 @@ header i {
 /*b0ttom of the page*/
 
 
+<<<<<<< HEAD
+=======
+
+
+/*  IF you want to have a different color for nav titles just active the below code
+.navtitle {
+background-color: #715362;
+margin-left: -5px;
+margin-right: -5px;
+}
+*/
+
+
+
+
+
+/*Larger screen Moves to b0ttom of the page*/
+>>>>>>> master
 /*End Nav With JS*/
 
 /*navigation mobil first whithout drop down*/
@@ -292,9 +310,11 @@ img {
 
 .aboutHtow {
     
-     margin-top: 10px;
-    margin-left: 30px;
-    margin-bottom: 10px;
+
+    margin: 20px 0 10px 30px;
+    text-align: left;
+    padding-top: 20px;
+    
     
 }
 
@@ -446,6 +466,15 @@ legend {
 }
 
 /* END FORM IN ABOUT PAGE */
+
+/* Bio Template*/
+.bioBg {
+    background: url(../images/stories-head.jpg) no-repeat;
+    background-color: #decdb0;
+    background-blend-mode: screen;
+    background-size: cover;
+    padding-bottom: 8%;
+}
 
 /***********************FOOTER*************************/
 
@@ -857,7 +886,44 @@ footer li a:hover {
   .main-navigation ul ul {
     margin-left: 0;
   }
+<<<<<<< HEAD
 /* END NNNNNNNNN NAVIGATION */
+=======
+    
+    
+/*after changing the margins in mobil first NAVIGATION make it like before for larger screen*/
+    .main-navigation ul ul li  {
+     margin: 0px 0px  0px 0px;
+  
+    }
+    .navTitle  { 
+    
+     background-color: #6a304c;
+     margin-left: 0px;
+     margin-right: 0px;
+}
+    .main-navigation li li a {  /*To make the drop down menu larger*/
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .main-navigation ul li ul { /*To make the ul drop down menue inline with the main navigation */
+        padding-top: 15px;
+    }
+    
+    .homePage {     /* To make the navigation fixed for the Larger screen */
+        position: fixed;
+        z-index: 20;
+        width: 100%;
+        margin-top: -70px; /* in the below code I pushed the .primaryContent below 70 px so I pushed the header back to be above of primeryContent in the page. */
+    }
+  
+    /*  .primaryContent {    To push the primeryContent down from behind the Header after fixing the header position */
+/*        margin-top2: 70px;*/ /*after changing the header to .homePage there is no need fo this margin*/
+    }
+    
+    
+/* END NNNNNNNNNNNNNNNNNNNN NAVIGATION */
+>>>>>>> master
     
     
 /*Events*/
