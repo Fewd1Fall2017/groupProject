@@ -305,6 +305,25 @@ nav ul li ul input[type=checkbox]:checked ~ ul.drop {display: block;
 /*END OF MAIN CONTENT HOME PAGE*/
 
 
+/****************SUPPORT*************************/
+
+#supportMain {
+    background: url(../images/eye-for-ebony-415494.jpg) no-repeat;
+    background-color: #6a304c;
+    background-blend-mode: luminosity;
+    background-size: cover;
+    padding-bottom: 8%;
+}
+
+#support .one-half.featured{
+    margin-top:10%;
+    margin-bottom: 10%;
+    background: rgba(255,255,255,.7);
+    padding: 5%;
+    text-align: center;
+    color: #6a304c;
+    
+
 /*About Us*/
 img {
     max-width: 100%;
@@ -1034,24 +1053,6 @@ footer .row div:nth-of-type(n+4){
     flex-basis: 29%;
     }
 
-
-/****************SUPPORT*************************/
-
-#supportMain {
-    background: url(../images/eye-for-ebony-415494.jpg) no-repeat;
-    background-color: #6a304c;
-    background-blend-mode: luminosity;
-    background-size: cover;
-    padding-bottom: 8%;
-}
-
-#support .one-half.featured{
-    margin-top:10%;
-    margin-bottom: 10%;
-    background: rgba(255,255,255,.7);
-    padding: 5%;
-    text-align: center;
-    color: #6a304c;
     
 /****************** Volunteer Page ***************/    
 
