@@ -12,6 +12,7 @@ font-family: 'Rubik', sans-serif;
 
 ********COLORS*******
 Dusty Purple #6a304c
+light Purple #8d677a (in navigation)
 OFF WHITE: #f1f0f0
 Golden Rod #FFB73D;
 Teal #00C5CD;
@@ -60,7 +61,7 @@ header {
     
 }
 #logo {
-    margin: .2em .2em .2em .2em;
+    margin: .8em .2em .2em .4em;
     display: inline;
 }
 .banner img {
@@ -112,8 +113,10 @@ header i {
 .main-navigation a {
   color: inherit;
   display: block;
-  padding: 10px 10px;
+  padding: 1px 10px;
   text-decoration: none;
+  margin-bottom: -1px;
+    
 }
 
 .toggled-on .menu {
@@ -145,17 +148,35 @@ header i {
 
 .fa-bars {
     float: right;
+    margin-top: -40px;
+    font-size: 1.8em;
+    margin-right: 10px;
+}
+
+
+  .main-navigation ul ul a:hover,
+  .main-navigation ul ul li.focus > a {
+  text-decoration: underline;
+  background-color: #8d677a;
+  }
+
+/*mobil fisrt fixed a colors and other style's options*/
+
+.main-navigation ul ul li  {
+margin: 1px -5px  0px -25px;
+
+}
+
+.main-navigation ul ul li a {
+    padding-left: 34px;
+}
+.main-navigation ul li li:first-child {
+    border-top: solid 1px #c6c5c6;
 }
 
 
 
 
-/*Larger screen*/
-/*b0ttom of the page*/
-
-
-<<<<<<< HEAD
-=======
 
 
 /*  IF you want to have a different color for nav titles just active the below code
@@ -171,9 +192,12 @@ margin-right: -5px;
 
 
 /*Larger screen Moves to b0ttom of the page*/
->>>>>>> master
 /*End Nav With JS*/
 
+
+
+
+/*previous versions of navigation */
 /*navigation mobil first whithout drop down*/
 
 /*
@@ -396,7 +420,7 @@ img {
 /* form in the about page */
 *:focus {
     outline: none;
-    background-color: #fff;
+    background-color: #6a304c;
 }
 ::-webkit-input-placeholder {
     color: #00C5CD;
@@ -749,19 +773,8 @@ footer li a:hover {
     margin: 80px 50px;
     display: table;
 }
-    
-    
-    
-/***************************************** Careers Page *******************************************************/
-.careersHeader {
-    background: url(../images/passion_led_us.jpg) no-repeat center;
-    background-size: cover;
-}
- .accordion-toggle {cursor: pointer;}
-  .accordion-content {display: none;}
-  .accordion-content.default {display: block;}
-    
-    
+
+
 
 
 /***************************************** Footer *******************************************************/
@@ -817,6 +830,7 @@ footer li a:hover {
   /* Make sure the menu items display */
   .main-navigation a {
     display: inline-block;
+   
   }
   
   .main-navigation .menu {
@@ -886,9 +900,6 @@ footer li a:hover {
   .main-navigation ul ul {
     margin-left: 0;
   }
-<<<<<<< HEAD
-/* END NNNNNNNNN NAVIGATION */
-=======
     
     
 /*after changing the margins in mobil first NAVIGATION make it like before for larger screen*/
@@ -923,7 +934,6 @@ footer li a:hover {
     
     
 /* END NNNNNNNNNNNNNNNNNNNN NAVIGATION */
->>>>>>> master
     
     
 /*Events*/
@@ -1030,7 +1040,7 @@ footer .row div:nth-of-type(n+4){
     padding: 0 15px;
     flex-basis: 29%;
     }
-}
+
 
 /****************SUPPORT*************************/
 
@@ -1061,7 +1071,7 @@ footer .row div:nth-of-type(n+4){
     }
 }
 
-
+}
 
 
 
