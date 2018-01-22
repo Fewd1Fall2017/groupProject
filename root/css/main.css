@@ -491,6 +491,15 @@ legend {
 
 /* END FORM IN ABOUT PAGE */
 
+/* Bio Template*/
+.bioBg {
+    background: url(../images/stories-head.jpg) no-repeat;
+    background-color: #decdb0;
+    background-blend-mode: screen;
+    background-size: cover;
+    padding-bottom: 8%;
+}
+
 /***********************FOOTER*************************/
 
 footer, footer a {
