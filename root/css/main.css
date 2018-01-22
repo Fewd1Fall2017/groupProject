@@ -60,7 +60,7 @@ header {
     
 }
 #logo {
-    margin: .2em .2em .2em .2em;
+    margin: .8em .2em .2em .4em;
     display: inline;
 }
 .banner img {
@@ -145,6 +145,9 @@ header i {
 
 .fa-bars {
     float: right;
+    margin-top: -40px;
+    font-size: 1.8em;
+    margin-right: 10px;
 }
 
 
