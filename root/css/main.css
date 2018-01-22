@@ -334,9 +334,11 @@ img {
 
 .aboutHtow {
     
-     margin-top: 10px;
-    margin-left: 30px;
-    margin-bottom: 10px;
+
+    margin: 20px 0 10px 30px;
+    text-align: left;
+    padding-top: 20px;
+    
     
 }
 
