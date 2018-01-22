@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="UTF-8">
+  <title>Home</title>
+  
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../css/main.css" type="text/css"/>
+  <link rel="stylesheet" href="../css/normalize.css" type="text/css"/>
+  <link rel="stylesheet" href="../css/skeleton.css" type="text/css"/>
+  
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="../scripts/script.js"></script>
+  
+  
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../images/logo-1inch.png">
+  
+</head>
+<body id="home">
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="u-full-width">
+        <header class="row"> <!-- added class"row" for skeleton responsiveness -->
+          <div class="twelve columns">
+            <nav id="primary-navigation" class="main-navigation primary-navigation">
+                    <label for="showMenu" class="showMenu"><span class="fa fa-bars" aria-hidden="true"></span></label>
+                    <input type="checkbox" id="showMenu" role="button" > 
+                <!--  <button class="menu-toggle">Menu</button>-->
+
+                   <div class="menu">
+                    <ul class="nav-menu">
+                      <li class="current_page_item">
+                         <a href="*">
+                          Get Help
+                        </a>
+                        <ul class="children">
+                          <li class="page_item">
+                            <a href="pages/support.html">
+                              Support
+                            </a>
+                          </li>
+                          <li class="page_item">
+                            <a href="pages/housing.html">
+                              Housing
+                            </a>
+
+                          </li>
+                            <li class="page_item">
+                            <a href="pages/employment.html">
+                              Employment
+                            </a>
+
+                          </li>
+                          <li class="page_item">
+                            <a href="pages/legal.html">
+                              Legal
+                            </a>
+
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="page_item">
+                        <a href="*">
+                          Get Informed
+                        </a>
+                        <ul class="children">
+                          <li class="page_item">
+                            <a href="pages/about.html">
+                              About Us
+                            </a>
+                          </li>
+                          <li class="page_item">
+                            <a href="pages/stories.html">
+                              Stories
+                            </a>
+
+                          </li>
+                            <li class="page_item">
+                            <a href="pages/events.html">
+                              Events
+                            </a>
+
+                          </li>
+                        </ul>
+                      </li>
+
+                       <li class="page_item">
+                        <a href="*">
+                          Get Involved
+                        </a>
+                        <ul class="children">
+                          <li class="page_item">
+                            <a href="pages/donate.html">
+                              Donate
+                            </a>
+                          </li>
+                          <li class="page_item">
+                            <a href="pages/">
+                              Volenteer
+                            </a>
+
+                          </li>
+                            <li class="page_item">
+                            <a href="pages/careers.html" >
+                              Careers
+                            </a>
+
+                          </li>
+                        </ul>
+                      </li>
+
+                    </ul>
+                  </div>
+                  <div style="clear: both;"></div>
+                </nav>
+            </div>
+        </header>
+        
+        <main>
+        
+        <section class="u-full-width careersHeader" id="donateHeaderTextArea">
+        <div class="row">
+          <div class="container">
+           <div class="one-half column">
+           <h3>“You make a living by what you get. You make a life by what you give.”</h3>
+           <a href="#" class="button button-primary">
+               Donate
+           </a>
+        </div>
+            </div>
+            </div>
+            </section>
+            <!-- JS -->
+<script type="text/javascript">
+  $(document).ready(function($) {
+    $('#accordion').find('.accordion-toggle').click(function(){
+
+      //Expand or collapse this panel
+      $(this).next().slideToggle('fast');
+
+      //Hide the other panels
+      $(".accordion-content").not($(this).next()).slideUp('fast');
+
+    });
+  });
+</script>
+            
+            
+            <section class="u-full-width" id="donationOptions">
+        <div class="row">
+          <div class="container">
+           
+           <h3>Women's Resource Center is a rewarding place to work with staff and volunteers united by a common goal to build a better world where everyone has a right to live in a violence-free home and to be treated with respect and dignity.</h3>
+              
+
+           
+
+
+
+<!-- HTML -->
+    <section>
+        <div id="accordion">
+          <h4 class="accordion-toggle">Case Manager | Youth Services Team</h4>
+              <div class="accordion-content default">
+                  <p>Under the coordination of the Program Manager and as part of the Youth Services team, the Case Manager will develop individual case plans for youth, perform assessments and provide referrals to in-house Women's Resource Center  services, as well as external organizations and service providers to ensure that youth receive the highest quality of service and support.</p>
+  
+                  <input type="file" name="file" id="file" class="inputfile" data-multiple-caption="{count} files selected" multiple />
+                  <label for="file"><span>Please upload your resume and reference list here</span></label>
+              </div>
+         <h4 class="accordion-toggle">Donor Membership Associate | Development Department </h4>
+             <div class="accordion-content">
+                  <p>Reporting to the Membership Manager, the Donor Membership Associate is responsible for fundraising efforts for donors giving less than $1,500 annually. This position helps fulfill the mission of the Women's Resource Center as a member of the Donor Membership Team in conjunction with Major Gifts within the Development Department </p>
+                  
+                  <input type="file" name="file" id="file" class="inputfile" data-multiple-caption="{count} files selected" multiple />
+                  <label for="file"><span>Please upload your resume and reference list here</span></label>
+             </div>
+         <h4 class="accordion-toggle">Helpdesk Specialist | Information Technology Services</h4>
+              <div class="accordion-content">
+                    <p>The Helpdesk Specialist is a desktop support position responsible for performing a variety of activities including but not limited to the
+                    remediation of desktop computer issues, the installation of desktop computers, and support of desktop computer users with their
+                    hardware and software needs. This position will both resolve tickets in an incident management system and work on various projects
+                    and deployments as instructed.</p>
+                    
+                    <input type="file" name="file" id="file" class="inputfile" data-multiple-caption="{count} files selected" multiple />
+                  <label for="file"><span>Please upload your resume and reference list here</span></label>
+              </div>
+        </div>
+     </section> 
+                      
+                                           
+                                                   
+                                                           
+                                                                   
+                                                                           
+                                                                                   
+                                                                                                   
+            
+         
+           
+            
+            
+            
+            
+            
+    
+        
+            </div>
+            </div>
+            </section>
+
+        </main>
+
+       
+       <footer>
+           <div class="row u-full-width">
+               <div class="container">
+                 <div class="row">
+                  <div class="four columns">
+                      <h6>Subscribe to our newsletter</h6>
+                      <p>Stay up to date on news, events and volunteer opportunities!</p>
+                      <form action="" method="get">
+                    <label for="emailInput">
+      <input class="u-full-width" type="email" placeholder="EMAIL ADDRESS" id="emailInput" required></label>
+                         <input class="button-primary" type="submit" value="Submit">
+                      </form>
+                  </div>
+                   <div class="two columns">
+                       <address>1963 APPLE ST<br /> OCEANSIDE, CA 92054</address>
+                       <a href="tel:1-760-757-3500">(760) 757-3500</a>
+                   </div>
+                   <div class="two columns">
+                   <ul>
+                       <li>GET HELP</li>
+                       <li><a href="#">SUPPORT</a></li>
+                       <li><a href="#">HOUSING</a></li>
+                       <li><a href="#">EMPLOYMENT</a></li>
+                       <li><a href="#">LEGAL</a></li>
+                   </ul>
+                   </div>
+                   <div class="two columns">
+                       <ul>
+                       <li>GET INFORMED</li>
+                       <li><a href="/pages/about.html">ABOUT</a></li>
+                       <li><a href="#">BLOG</a></li>
+                       <li><a href="#">EVENTS</a></li>
+                   </ul>
+                   </div>
+                   <div class="two columns">
+                       <ul>
+                       <li>GET INVOLVED</li>
+                       <li><a href="/pages/donate.html">DONATE</a></li>
+                       <li><a href="#">VOLUNTEER</a></li>
+                       <li><a href="#">CAREERS</a></li>
+                   </ul>
+                   </div>
+           </div>
+           
+           </div>
+           <div class="row footerBanner">
+                   <div class="container">
+                       <div class="one-half column"><p>Copyright Women's Resource Center &copy;2018</p></div>
+                   <div class="one-half column">
+                       <a href="#"><i class="fa fa-facebook fa-pull-right fa-lg"></i></a>
+                       <a href="#"><i class="fa fa-instagram fa-pull-right fa-lg"></i></a>
+                       <a href="#"><i class="fa fa-twitter fa-pull-right fa-lg"></i></a>
+                   </div>
+                   </div>
+                   </div>
+           </div>
+       </footer>
+        
+    </div>  <!-- end container -->
+    
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
