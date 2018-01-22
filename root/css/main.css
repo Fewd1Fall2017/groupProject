@@ -177,18 +177,6 @@ margin: 1px -5px  0px -25px;
 
 
 
-   header {     /* To make the navigation fixed for the Larger screen */
-        position: fixed;
-        z-index: 20;
-       width: 100%;
-         margin-top: -70px; /* in the below code I pushed the .primaryContent below 70 px so I pushed the header back to be above of primeryContent in the page. */
-     }
-   
-     .primaryContent {    /*To push the primeryContent down from behind the Header after fixing the header position */
-         margin-top: 70px;
-     }
-     
-
 /*  IF you want to have a different color for nav titles just active the below code
 .navtitle {
 background-color: #715362;
@@ -975,11 +963,6 @@ footer li a:hover {
 /* Larger than tablet */
 @media (min-width: 750px) {
 
-/*Donate Page*/ 
-    .wrapper {
-          display: grid;
-          grid-template-columns: 33% 33% 33%;
-    }
 
     
 /*************FOOTER************/ /* +++ */ /*  About Us form in @ media min width 974*/
