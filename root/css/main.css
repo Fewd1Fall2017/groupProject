@@ -964,7 +964,11 @@ footer li a:hover {
 @media (min-width: 750px) {
 
 
-    
+/* Donate Page*/
+    .wrapper {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
 /*************FOOTER************/ /* +++ */ /*  About Us form in @ media min width 974*/
     
     
