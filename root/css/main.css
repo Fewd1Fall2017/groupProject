@@ -156,7 +156,7 @@ header i {
   .main-navigation ul ul a:hover,
   .main-navigation ul ul li.focus > a {
   text-decoration: underline;
-  background-color: #289ea9;
+  background-color: #7e5469;
   }
 
 /*mobil fisrt fixed a colors and other style's options*/
@@ -1048,6 +1048,12 @@ footer .row div:nth-of-type(n+4){
     padding: 5%;
     text-align: center;
     color: #6a304c;
+}
+
+#supportSecondary .one-half.column.featured{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    min-height: 500px;
 }
 
 
