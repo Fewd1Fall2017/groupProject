@@ -12,7 +12,6 @@ font-family: 'Rubik', sans-serif;
 
 ********COLORS*******
 Dusty Purple #6a304c
-light Purple #8d677a (in navigation)
 OFF WHITE: #f1f0f0
 Golden Rod #FFB73D;
 Teal #00C5CD;
@@ -157,7 +156,7 @@ header i {
   .main-navigation ul ul a:hover,
   .main-navigation ul ul li.focus > a {
   text-decoration: underline;
-  background-color: #8d677a;
+  background-color: #289ea9;
   }
 
 /*mobil fisrt fixed a colors and other style's options*/
@@ -173,21 +172,6 @@ margin: 1px -5px  0px -25px;
 .main-navigation ul li li:first-child {
     border-top: solid 1px #c6c5c6;
 }
-
-
-
-
-   header {     /* To make the navigation fixed for the Larger screen */
-        position: fixed;
-        z-index: 20;
-       width: 100%;
-         margin-top: -70px; /* in the below code I pushed the .primaryContent below 70 px so I pushed the header back to be above of primeryContent in the page. */
-     }
-   
-     .primaryContent {    /*To push the primeryContent down from behind the Header after fixing the header position */
-         margin-top: 70px;
-     }
-     
 
 /*  IF you want to have a different color for nav titles just active the below code
 .navtitle {
@@ -271,7 +255,7 @@ nav ul li ul input[type=checkbox]:checked ~ ul.drop {display: block;
     background-position: center;
 }
 
-#hero .one-half, #donateHeaderTextArea .one-half, #volunteerHeaderTextArea .one-half {
+#hero .one-half, #donateHeaderTextArea .one-half {
     margin-top:10%;
     margin-bottom: 10%;
     background: rgba(255,255,255,.7);
@@ -317,6 +301,9 @@ nav ul li ul input[type=checkbox]:checked ~ ul.drop {display: block;
 /*END OF MAIN CONTENT HOME PAGE*/
 
 
+
+
+
 /*About Us*/
 img {
     max-width: 100%;
@@ -344,11 +331,9 @@ img {
 
 .aboutHtow {
     
-
-    margin: 20px 0 10px 30px;
-    text-align: left;
-    padding-top: 20px;
-    
+     margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
     
 }
 
@@ -501,15 +486,6 @@ legend {
 
 /* END FORM IN ABOUT PAGE */
 
-/* Bio Template*/
-.bioBg {
-    background: url(../images/stories-head.jpg) no-repeat;
-    background-color: #decdb0;
-    background-blend-mode: screen;
-    background-size: cover;
-    padding-bottom: 8%;
-}
-
 /***********************FOOTER*************************/
 
 footer, footer a {
@@ -622,14 +598,14 @@ footer li a:hover {
 }
 
 
-/***************************************** Donate Page *******************************************************/
 
+/*Donate Page*/
 
 .donateHeader {
     background: url(../images/hands.png) no-repeat center;
     background-size: cover;
 }
-#donationOptions h3 {  
+#donationOptions h3 {
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -710,6 +686,7 @@ footer li a:hover {
 .box p {
     color: #0083A1;
 }
+ 
 
 
 /* Larger than mobile */
@@ -727,96 +704,10 @@ footer li a:hover {
     .footerBanner a{
         float: right;
     }
-    
-/***************************************** Volunteer Page *******************************************************/
-
-
-.subHeader h5, h3 {  
-    text-align: center;
-    color: #6a304c;
-}
-
-.subHeader h3 {
-    border-bottom: solid 1px #6a304c;
-    padding-bottom: 15px;
-    padding-top: 60px;
-}
-
-.volunteerHeader {
-    background: url(../images/volunteer.jpeg) no-repeat center;
-    background-size: cover;
-}
-
-.front {
-    background-color: #FFB73D;
-    border-radius: 5px;
-    text-align: center;
-}
-.front img {
-    padding-top: 30px;
-}
-
-.front h4 {
-    padding-top: 10px;
-}
-
-.back {
-    background-color: #EA8571;
-    border-radius: 5px;
-    padding: 20px;
-    height: 200px !important;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.back p {
-    color: #fff;
-    font-size: 1.2em;
-}
-
-.front h4 {
-    color: #fff;
-}
-
-.card {
-    margin: 80px 50px;
-    display: table;
 }
 
 
 
-
-/***************************************** Footer *******************************************************/
-.footerBanner {
-    background-color: #6a304c;
-}
-
-.footerBanner .container {
-    padding-top: 1%;
-}
-
-
-/***************************************** Larger than mobile *******************************************************/
-@media (min-width: 768px) {
-/****************** Volunteer Page ***************/    
-    #volunteerOpp {
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
-    .card {
-    margin: 30px 50px;
-    }
-    
-}
-
-
-
-/***************************************** Larger than tablet *******************************************************/
-@media (min-width: 1240px) {
-/****************** Donate Page *******************/
-    }
-    
 /***Larger screen main navigation of the website + event + about us + storeies larger screen style ***/
 
 @media screen and (min-width: 700px) {
@@ -931,19 +822,7 @@ footer li a:hover {
         padding-top: 15px;
     }
     
-    .homePage {     /* To make the navigation fixed for the Larger screen */
-        position: fixed;
-        z-index: 20;
-        width: 100%;
-        margin-top: -70px; /* in the below code I pushed the .primaryContent below 70 px so I pushed the header back to be above of primeryContent in the page. */
-    }
-  
-    /*  .primaryContent {    To push the primeryContent down from behind the Header after fixing the header position */
-/*        margin-top2: 70px;*/ /*after changing the header to .homePage there is no need fo this margin*/
-    }
-    
-    
-/* END NNNNNNNNNNNNNNNNNNNN NAVIGATION */
+/* END NNNNNNNNN NAVIGATION */
     
     
 /*Events*/
@@ -974,13 +853,11 @@ footer li a:hover {
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-
-/*Donate Page*/ 
+   /*Donate Page*/ 
     .wrapper {
           display: grid;
           grid-template-columns: 33% 33% 33%;
     }
-
     
 /*************FOOTER************/ /* +++ */ /*  About Us form in @ media min width 974*/
     
@@ -992,7 +869,11 @@ footer .row div:nth-of-type(n+3){
 
 footer .row div:nth-of-type(n+4){
     margin-left: 2%;
-    }
+}
+    
+    
+
+
 }
 
 @media (min-width: 974px){
@@ -1045,7 +926,7 @@ footer .row div:nth-of-type(n+4){
 @media (min-width: 1200px){
     
     
-/******* stories columns ******/
+                               /******* stories columns ******/
     .storiesCol {
     padding: 0 15px;
     flex-basis: 29%;
@@ -1055,7 +936,7 @@ footer .row div:nth-of-type(n+4){
 /****************SUPPORT*************************/
 
 #supportMain {
-    background: url(../images/eye-for-ebony-415494.jpg) no-repeat;
+    background: url(/images/eye-for-ebony-415494.jpg) no-repeat;
     background-color: #6a304c;
     background-blend-mode: luminosity;
     background-size: cover;
@@ -1069,20 +950,6 @@ footer .row div:nth-of-type(n+4){
     padding: 5%;
     text-align: center;
     color: #6a304c;
-    
-/****************** Volunteer Page ***************/    
-
-    #volunteerOpp {
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-    }
-    .card {
-        height: 320px !important;
-    }
 }
-
-
-
-
 
 
