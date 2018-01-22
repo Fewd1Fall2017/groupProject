@@ -219,7 +219,7 @@ nav ul li ul input[type=checkbox]:checked ~ ul.drop {display: block;
     background-position: center;
 }
 
-#hero .one-half, #donateHeaderTextArea .one-half {
+#hero .one-half, #donateHeaderTextArea .one-half, #volunteerHeaderTextArea .one-half {
     margin-top:10%;
     margin-bottom: 10%;
     background: rgba(255,255,255,.7);
@@ -291,12 +291,24 @@ img {
 }
 
 .aboutHtow {
-    margin-top: 10px;
+    
+     margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    
 }
 
-section:last-child {
-    border-bottom: 1px solid gray;
+.aboutPar {
+    margin-left: 30px;
+
 }
+
+.aboutBg{
+    background-color: #e9e9e9;
+    
+}
+
+
 
 
 /*Events*/
@@ -322,7 +334,7 @@ section:last-child {
     padding-bottom: 5px;
 }
 .eventsCol {
-    background-color: #e3d8d8;
+    background-color: #e9e9e9;
     margin: 5px;
     padding: 5px;
 }
@@ -333,6 +345,107 @@ section:last-child {
     margin-bottom: 10px;
 }
 
+/*Stories*/
+.storiesHeader {
+    background: url(../images/stories-head.jpg) no-repeat;
+    background-color: #e3d8d8;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 8%;
+}
+
+.StoriesReadMore {
+    background: url(../images/stories-head.jpg) no-repeat;
+    background-color: #decdb0;
+    background-blend-mode: screen;
+    background-size: cover;
+    padding-bottom: 8%;
+}
+
+.storiesCol {
+    background-color: #e9e9e9;
+    margin: 5px;
+    padding: 5px;
+}
+/*About second version*/
+.aboutCol {
+    margin: 5px;
+    padding: 5px;
+    
+}
+/* form in the about page */
+*:focus {
+    outline: none;
+    background-color: #fff;
+}
+::-webkit-input-placeholder {
+    color: #00C5CD;
+}
+:-ms-input-placeholder {
+    color: #00C5CD;
+}
+::-moz-placeholder {
+    color: #00C5CD;
+}
+::placeholder {
+    color: #00C5CD;
+}
+fieldset {
+    border: none;
+    border-top: solid 1px #00C5CD;
+}
+legend {
+    font-weight: bold;
+    padding: 0 .25em;
+    
+}
+.contact_form ul {
+    list-style-type: none;
+}
+.contact_form li {
+    padding: .1em;
+    margin: 0;
+}
+.contact_form li:last-child {
+    border: none;
+}
+.contact_form label {
+    max-width: 150px;
+    min-width: 80px;
+    margin-top: 3px;
+    display: inline-block;
+    padding: 3px;
+    text-align: left;
+    vertical-align: top;
+}
+.contact_form input {
+    min-width: 220px;
+    height: 30px;
+}
+.contact_form textarea {
+    min-width: 220px;
+    height: 70px;
+}
+.contact_form input, .contact_form textarea {
+    border: solid 1px #999;
+    box-shadow: 0 0 3px #ccc, 0 10px 15px #dedede inset;
+    padding: 5px 8px;
+    border-radius: 5px;
+} 
+.contact_form input:focus, .contact_form textarea:focus {
+    box-shadow: 0 0 3px #999, 0 10px 15px rgba(255,255,255,.5) inset;
+}
+.contact_form button.submit {
+    background-color: #00C5CD;
+    background: linear-gradient(to top, #bbdfd9, #00C5CD);
+    color: #666;
+    border: solid 1px #999;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    font-weight: bold;
+}
+
+/* END FORM IN ABOUT PAGE */
 
 /***********************FOOTER*************************/
 
@@ -446,14 +559,14 @@ footer li a:hover {
 }
 
 
+/***************************************** Donate Page *******************************************************/
 
-/*Donate Page*/
 
 .donateHeader {
     background: url(../images/hands.png) no-repeat center;
     background-size: cover;
 }
-#donationOptions h3 {
+#donationOptions h3 {  
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -534,7 +647,6 @@ footer li a:hover {
 .box p {
     color: #0083A1;
 }
- 
 
 
 /* Larger than mobile */
@@ -552,10 +664,96 @@ footer li a:hover {
     .footerBanner a{
         float: right;
     }
+    
+/***************************************** Volunteer Page *******************************************************/
+
+
+.subHeader h5, h3 {  
+    text-align: center;
+    color: #6a304c;
+}
+
+.subHeader h3 {
+    border-bottom: solid 1px #6a304c;
+    padding-bottom: 15px;
+    padding-top: 60px;
+}
+
+.volunteerHeader {
+    background: url(../images/volunteer.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.front {
+    background-color: #FFB73D;
+    border-radius: 5px;
+    text-align: center;
+}
+.front img {
+    padding-top: 30px;
+}
+
+.front h4 {
+    padding-top: 10px;
+}
+
+.back {
+    background-color: #EA8571;
+    border-radius: 5px;
+    padding: 20px;
+    height: 200px !important;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.back p {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.front h4 {
+    color: #fff;
+}
+
+.card {
+    margin: 80px 50px;
+    display: table;
 }
 
 
 
+
+/***************************************** Footer *******************************************************/
+.footerBanner {
+    background-color: #6a304c;
+}
+
+.footerBanner .container {
+    padding-top: 1%;
+}
+
+
+/***************************************** Larger than mobile *******************************************************/
+@media (min-width: 768px) {
+/****************** Volunteer Page ***************/    
+    #volunteerOpp {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .card {
+    margin: 30px 50px;
+    }
+    
+}
+
+
+
+/***************************************** Larger than tablet *******************************************************/
+@media (min-width: 1240px) {
+/****************** Donate Page *******************/
+    }
+    
 /***Larger screen main navigation of the website + event + about us + storeies larger screen style ***/
 
 @media screen and (min-width: 700px) {
@@ -663,19 +861,31 @@ footer li a:hover {
     .hLessLineheight {
     line-height: 1;
         font-size: 1.5em;
-}
+    }
+
+        .storiesCol {
+        padding: 0 15px;
+        flex-basis: 42%;
+    }
+/*AboutUs second version*/
+    .aboutCol {
+        padding: 0 15px;
+        flex-basis: 42%;
+    }
 }
 /*** end ***/
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-   /*Donate Page*/ 
+
+/*Donate Page*/ 
     .wrapper {
           display: grid;
           grid-template-columns: 33% 33% 33%;
     }
+
     
-/*************FOOTER************/
+/*************FOOTER************/ /* +++ */ /*  About Us form in @ media min width 974*/
     
     
 footer .row div:nth-of-type(n+3){
@@ -685,11 +895,7 @@ footer .row div:nth-of-type(n+3){
 
 footer .row div:nth-of-type(n+4){
     margin-left: 2%;
-}
-    
-    
-
-
+    }
 }
 
 @media (min-width: 974px){
@@ -728,14 +934,31 @@ footer .row div:nth-of-type(n+4){
         float: right;
     }
 
+                                   /******* about us form ******/
+    .contact_form label {
+
+    text-align: right;
+    vertical-align: top;
+}
+
     
 }
 
 
+@media (min-width: 1200px){
+    
+    
+/******* stories columns ******/
+    .storiesCol {
+    padding: 0 15px;
+    flex-basis: 29%;
+    }
+}
+
 /****************SUPPORT*************************/
 
 #supportMain {
-    background: url(/images/eye-for-ebony-415494.jpg) no-repeat;
+    background: url(../images/eye-for-ebony-415494.jpg) no-repeat;
     background-color: #6a304c;
     background-blend-mode: luminosity;
     background-size: cover;
@@ -749,6 +972,20 @@ footer .row div:nth-of-type(n+4){
     padding: 5%;
     text-align: center;
     color: #6a304c;
+    
+/****************** Volunteer Page ***************/    
+
+    #volunteerOpp {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .card {
+        height: 320px !important;
+    }
 }
+
+
+
+
 
 
