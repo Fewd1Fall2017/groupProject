@@ -705,10 +705,15 @@ footer li a:hover {
 .accordion-toggle {
     background-color: #6a304c;
 }
-#accordion h4 {
+#accordion h5 {
     color: #fff;
     padding: 4px 10px;
 }
+#accordion h5 img {
+    margin-top: 4px;
+    
+}
+
  
 /***************************************** Volunteer Page *******************************************************/
 
