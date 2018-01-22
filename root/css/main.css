@@ -659,8 +659,8 @@ footer li a:hover {
     transform: rotate(90deg);
 }
 
-#donationOptions h6 {
-    margin: 10px 0;
+#donationOptions .aboutCareer {
+    margin: 40px 0;
 }
 
  
