@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6{
 .button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
     color: #6a304c;
     background-color: #f1f0f0;
-    border-color: #f1f0f0;
+    border-color: #6a304c;
     border-radius: 0;
 }
 
@@ -998,16 +998,24 @@ footer .row div:nth-of-type(n+4){
     padding-bottom: 8%;
 }
 
+#support img {
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+#supportMain a:focus {
+    background: none;
+}
+
 #support .featured{
     background: rgba(255,255,255,.7);
     color: #6a304c;
     padding: 5%;
 }
 
-#support .one-half{
+#support .one-half.featured {
     margin-top:10%;
     margin-bottom: 10%;
-    
     text-align: center; 
 }
 
@@ -1015,5 +1023,7 @@ footer .row div:nth-of-type(n+4){
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+
 
 
