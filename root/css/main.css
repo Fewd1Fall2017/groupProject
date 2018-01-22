@@ -952,4 +952,10 @@ footer .row div:nth-of-type(n+4){
     color: #6a304c;
 }
 
+#supportSecondary .one-half.column.featured{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    min-height: 500px;
+}
+
 
