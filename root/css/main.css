@@ -848,18 +848,7 @@ footer li a:hover {
     }
     
     
-    /*Larger Screen Fixed NAV*/
-     header {     /* To make the navigation fixed for the Larger screen */
-        position: fixed;
-        z-index: 20;
-        width: 100%;
-       margin-top: -77px
-     }
-     main {
-       margin-top: 77px;
-    
-      
-}
+
     
 
 /* END NNNNNNNNN NAVIGATION */
@@ -1000,7 +989,7 @@ footer .row div:nth-of-type(n+4){
 }
 
 #support img {
-    margin: 0 auto;
+    margin2: 0 auto;
     border-radius: 100%;
 }
 
