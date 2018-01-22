@@ -686,6 +686,29 @@ footer li a:hover {
 .box p {
     color: #0083A1;
 }
+
+/***************************************** Career Page *******************************************************/
+
+.careersHeader {
+    background: url(../images/career-page.jpg) no-repeat center;
+    background-size: cover;
+}
+ .accordion-toggle {
+     cursor: pointer;
+}
+  .accordion-content {
+      display: none;
+}
+  .accordion-content.default {
+      display: block;
+}
+.accordion-toggle {
+    background-color: #6a304c;
+}
+#accordion h4 {
+    color: #fff;
+    padding: 4px 10px;
+}
  
 
 
