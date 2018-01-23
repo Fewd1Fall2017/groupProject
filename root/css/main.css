@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, h6{
 
 .rubik {
     font-family: 'Rubik', sans-serif;
+    color: #6a304c;
 }
 /*Button Styles*/
 
@@ -279,6 +280,7 @@ img {
     margin-left: 30px;
     margin-bottom: 10px;
     text-align: left;
+    padding-top: 20px;
     
 }
 
@@ -327,6 +329,7 @@ img {
     margin-top: 10px;
     margin-left: 20px;
     margin-bottom: 10px;
+    padding-top: 20px;
 }
 
 /*Stories*/
@@ -351,6 +354,20 @@ img {
     margin: 5px;
     padding: 5px;
 }
+
+
+.storiesIconDate {
+         background-color: #dcd4e1;
+     }
+ .readmoreHover {
+     color: #805a6c;
+     
+     
+ }
+ .readmoreHover:hover {
+     text-decoration: underline;
+     color: #6a304c;
+ }
 /*About second version*/
 .aboutCol {
     margin: 5px;
