@@ -1149,5 +1149,111 @@ footer .row div:nth-of-type(n+4){
 }
 
 
+/****************EMPLOYMENT*************************/
+
+#employmentMain {
+    background: url(/images/Homeownership.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 8%;
+}
+
+#employment .employmentImage {
+    display: block;
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding-top: 56.25%;
+    background-color: #bbb;
+}
+
+#employment .employmentImage img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+#employment .employmentContent{
+    padding: 2rem 2rem 2.25rem;
+    box-sizing: border-box;
+    display: block;
+    color: #FFF;
+    background-color: #FFB73D;
+    text-align: left;
+    min-height: 250px;
+    position: relative;
+}
+
+#employment .employmentContent.second {
+    background-color: #EA8571;
+}
+
+#employment .employmentContent > h3 {
+    margin-bottom: 1rem;
+    line-height: 1.1;
+    color: #FFF;
+    text-align: left;
+}
+
+#employmentMain a:focus {
+    background: none;
+}
+
+#employmentSecondary .container {
+    max-width: 100%;
+    width: 95%;
+}
+
+#employmentSecondary .quote, #employmentSecondary h1  {
+    font-family: 'Spectral', serif;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    color: #6a304c;
+}
+
+#employmentSecondary h1 {
+    font-size: 4rem;
+}
+
+#employment .featured{
+    background: rgba(255,255,255,.7);
+    color: #6a304c;
+    padding: 5%;
+    
+}
+
+#employment .one-half.featured {
+    margin-top:10%;
+    margin-bottom: 10%;
+    text-align: center; 
+}
+
+#employmentSecondary .one-half.column{
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+.employmentLinks {
+    position: relative;
+
+    background-color: #00C5CD; 
+}
+
+.employmentLinks h5 {
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+}
+
+
 
 
