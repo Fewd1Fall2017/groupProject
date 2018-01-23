@@ -826,7 +826,7 @@ footer li a:hover, footer address + a:hover, footer address + a + a:hover {
 }
 
 .volunteerHeader {
-    background: url(../images/volunteer.jpeg) no-repeat center;
+    background: url(../images/volunteer.jpg) no-repeat center;
     background-size: cover;
 }
 
