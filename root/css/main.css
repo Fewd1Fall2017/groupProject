@@ -1003,7 +1003,7 @@ footer .row div:nth-of-type(n+4){
 /****************SUPPORT*************************/
 
 #supportMain {
-    background: url(/images/Homeownership.jpg) no-repeat;
+    background: url(/images/eye-for-ebony-415494.jpg) no-repeat;
     background-size: cover;
     padding-bottom: 8%;
 }
@@ -1030,6 +1030,91 @@ footer .row div:nth-of-type(n+4){
 }
 
 #supportSecondary .one-third.column, #supportSecondary .two-thirds.column {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/****************HOUSING*************************/
+
+#housingMain {
+    background: url(/images/Homeownership.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 8%;
+}
+
+/*
+#housingSecondary img {
+    margin: 0 auto;
+}
+*/
+
+#housing .housingImage {
+    display: block;
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding-top: 56.25%;
+    background-color: #bbb;
+/*
+    height: 300px;
+    overflow: hidden;
+*/
+}
+
+#housing .housingImage img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+#housing .housingContent{
+    padding: 2rem 2rem 2.25rem;
+    box-sizing: border-box;
+    display: block;
+    color: #FFF;
+    background-color: #00C5CD;
+    text-align: left;
+    min-height: 250px;
+    position: relative;
+}
+
+#housing .housingContent.second {
+    background-color: #FFB73D;
+}
+
+#housing .housingContent > h3 {
+    margin-bottom: 1rem;
+    line-height: 1.1;
+    color: #FFF;
+    text-align: left;
+}
+
+#housingMain a:focus {
+    background: none;
+}
+
+#housingSecondary .container {
+    max-width: 100%;
+    width: 95%;
+}
+
+#housing .featured{
+    background: rgba(255,255,255,.7);
+    color: #6a304c;
+    padding: 5%;
+}
+
+#housing .one-half.featured {
+    margin-top:10%;
+    margin-bottom: 10%;
+    text-align: center; 
+}
+
+#housingSecondary .one-half.column{
     margin-top: 5%;
     margin-bottom: 5%;
 }
