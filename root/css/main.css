@@ -665,7 +665,7 @@ footer li, footer li a, footer address {
     color: #EA8571;
 }
 
-footer li a:hover, footer address + a:hover {
+footer li a:hover, footer address + a:hover, footer address + a + a:hover {
     border-bottom: 2px solid #EA8571;
     color: #EA8571;
 }
