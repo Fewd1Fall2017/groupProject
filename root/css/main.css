@@ -74,6 +74,15 @@ a {
     font-weight: 400;
 }
 
+a:hover {
+    color: #fff;
+}
+
+a:focus {
+    background: none;
+}
+
+
 header a{
     font-size: 1.1em;
 }
@@ -213,8 +222,14 @@ margin-right: -5px;
 
 /*Primary Content*/
 
+/* Previous version
 .primaryContent {
     background: url(../images/banner-1400px.jpg);
+}
+*/
+.parallax {
+    min-height: 600px;
+    background: transparent;
 }
 
 .primaryContent .button.button-primary{
@@ -222,11 +237,122 @@ margin-right: -5px;
     border-color: #00C5CD;
 }
 
+/*Section 2*/
+#section2 {
+    background-color: #FFB73D;
+}
+.colorSection .text {
+    float: right;
+    padding: 5%;
+    color: #6a304c;
+}
+#section2 .feature {
+    text-align: center;
+}
+
+#stickToBottom {
+    position: absolute;
+
+}
+.circle {
+  width: 100px;
+  margin: 6px 6px 20px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.circle strong {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 30px;
+}
+
+.circle strong i {
+  font-style: normal;
+  font-size: 0.6em;
+  font-weight: normal;
+}
+
+.circle span {
+  display: block;
+  color: #fff;
+  margin-top: 12px;
+}
+canvas {
+    margin-top: 100px;
+    margin-left: -50px;
+}
+.circle strong {
+    margin-top: 150px;
+    color: #fff;
+    font-size: 60px;
+}
+.circle span {
+    font-family: 'Rubik', sans-serif;
+    color: #6a304c;
+    width: 250px;
+    margin-left: -70px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.circle .header {
+    font-size: 2em;
+}
+.circle .text {
+    font-size: 0.95em;
+}
+
+
+/*Section 4*/
+#section4 {
+    background-color: #EA8571;
+    height: 1150px;
+}
+.item {
+  margin: 5px;
+  display: none;
+}
+#section4 h1 {
+    padding: 5% 5% 0 5%;
+    text-align: center;
+    color: #6a304c;
+}
+
+#section4 h2 {
+    text-align: center;
+    color: #6a304c;
+    font-size: 1.8em;
+    color: #fff;
+}
+
+#section4 .column ul {
+    list-style-type: none;
+    color: #6a304c;
+    font-size: 1.5em;
+}
+#section4 .column {
+    margin: 0;
+    padding: 0;
+}
+#section4 .column ul li {
+    margin: 20px 5px;
+    border-bottom: solid 1px #fff;
+}
+
+
 /*Secondary Content*/
 
+/*
 .secondaryContent {
     background: url(../images/jordan-whitt-145327.jpg);
 }
+*/
 
 .secondaryContent .button.button-primary{
     background-color: #FFB73D;
@@ -234,9 +360,11 @@ margin-right: -5px;
 }
 
 /*tertiaryContent*/
+/*
 .tertiaryContent {
     background: url(../images/henri-meilhac-155942.jpg);
 }
+*/
 
 .tertiaryContent .button.button-primary{
     background-color: #EA8571;
@@ -537,10 +665,12 @@ footer li, footer li a, footer address {
     color: #EA8571;
 }
 
-footer li a:hover {
+footer li a:hover, footer address + a:hover {
     border-bottom: 2px solid #EA8571;
     color: #EA8571;
 }
+
+
 
 /*Footer Copyright and social media links*/
 .footerBanner {
@@ -676,8 +806,8 @@ footer li a:hover {
     transform: rotate(90deg);
 }
 
-#donationOptions h6 {
-    margin: 10px 0;
+#donationOptions .aboutCareer {
+    margin: 40px 0;
 }
 
  
@@ -755,6 +885,11 @@ footer li a:hover {
     .footerBanner a{
         float: right;
     }
+    
+/*    Section 4*/
+    #section4 {
+    height: 900px;
+}
 }
 
 
@@ -914,6 +1049,10 @@ footer li a:hover {
         padding: 0 15px;
         flex-basis: 42%;
     }
+      /*    Section 4*/
+    #section4 {
+    height: 750px;
+    } 
 }
 /*** end ***/
 
@@ -943,12 +1082,11 @@ footer .row div:nth-of-type(n+3){
 
 footer .row div:nth-of-type(n+4){
     margin-left: 2%;
-}
-    
-    
+} 
 
 
 }
+
 
 @media (min-width: 974px){
         
@@ -992,8 +1130,15 @@ footer .row div:nth-of-type(n+4){
     text-align: right;
     vertical-align: top;
 }
+/*    Section 4*/
 
-    
+    #section4 {
+    height: 850px;
+}
+          /*    Section 4*/
+    #section4 {
+    height: 650px;
+} 
 }
 
 
@@ -1015,6 +1160,10 @@ footer .row div:nth-of-type(n+4){
     .card {
         height: 320px !important;
     }
+          /*    Section 4*/
+    #section4 {
+    height: 600px;
+} 
 }
 
 /****************SUPPORT*************************/
@@ -1134,6 +1283,112 @@ footer .row div:nth-of-type(n+4){
 #housingSecondary .one-half.column{
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+
+/****************EMPLOYMENT*************************/
+
+#employmentMain {
+    background: url(/images/Homeownership.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 8%;
+}
+
+#employment .employmentImage {
+    display: block;
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding-top: 56.25%;
+    background-color: #bbb;
+}
+
+#employment .employmentImage img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+#employment .employmentContent{
+    padding: 2rem 2rem 2.25rem;
+    box-sizing: border-box;
+    display: block;
+    color: #FFF;
+    background-color: #FFB73D;
+    text-align: left;
+    min-height: 250px;
+    position: relative;
+}
+
+#employment .employmentContent.second {
+    background-color: #EA8571;
+}
+
+#employment .employmentContent > h3 {
+    margin-bottom: 1rem;
+    line-height: 1.1;
+    color: #FFF;
+    text-align: left;
+}
+
+#employmentMain a:focus {
+    background: none;
+}
+
+#employmentSecondary .container {
+    max-width: 100%;
+    width: 95%;
+}
+
+#employmentSecondary .quote, #employmentSecondary h1  {
+    font-family: 'Spectral', serif;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    color: #6a304c;
+}
+
+#employmentSecondary h1 {
+    font-size: 4rem;
+}
+
+#employment .featured{
+    background: rgba(255,255,255,.7);
+    color: #6a304c;
+    padding: 5%;
+    
+}
+
+#employment .one-half.featured {
+    margin-top:10%;
+    margin-bottom: 10%;
+    text-align: center; 
+}
+
+#employmentSecondary .one-half.column{
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+.employmentLinks {
+    position: relative;
+
+    background-color: #00C5CD; 
+}
+
+.employmentLinks h5 {
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
 }
 
 
