@@ -212,14 +212,35 @@ margin-right: -5px;
 
 /*Primary Content*/
 
+/* Previous version
 .primaryContent {
     background: url(../images/banner-1400px.jpg);
+}
+*/
+.parallax {
+    min-height: 600px;
+    background: transparent;
 }
 
 .primaryContent .button.button-primary{
     background-color: #00C5CD;
     border-color: #00C5CD;
 }
+
+/*Section 2*/
+#section2 {
+    background-color: #FFB73D;
+}
+#section2 .right {
+    float: right;
+    padding: 5%;
+    color: #6a304c;
+}
+.my-progress-bar {
+    color: red;
+    z-index: 1000000;
+}
+
 
 /*Secondary Content*/
 

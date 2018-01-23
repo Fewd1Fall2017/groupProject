@@ -22,9 +22,11 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="/path/to/parallax.js"></script>
-  <script src="scripts/script.js"></script>
+  <script src="/scripts/parallax.min.js"></script>
+  <script src="/scripts/circle-progress.min.js"></script>
+  <script src="scripts/homePageScript.js"></script>
+  
+  
   
   
   <!-- Favicon
@@ -139,8 +141,9 @@
         </header>
         
         <main>
-        
-        <section class="u-full-width primaryContent" id="hero">
+<!-------------------------------------------------------------- Section 1-------------------------------------------------------------------------------->
+        <section class="parallax" data-parallax="scroll" data-image-src="/images/banner-1400px.jpg">
+        <div class="u-full-width primaryContent" id="hero">
         <div class="row">
           <div class="container">
            <div class="one-half column">
@@ -152,7 +155,29 @@
         </div>
             </div>
             </div>
+            </div>
             </section>
+<!-------------------------------------------------------------- Section 2-------------------------------------------------------------------------------->
+               <section class="u-full-width" id="section2">
+                <div class="row">
+                  <div class="container">
+                    <div class="one-half column left">
+                        <div id="circle"></div>
+                           
+                    </div>
+                   <div class="one-half column right">
+                       <h1>Our Vision</h1>
+                       <p>Women’s Resource Center is a health and social justice nonprofit with a simple vision: providw quality, compassionate, innovate services to families affected by domestic violence and sexual assault. </p>
+                       <p>Through Women’s Resource Center’s education of future generations, victim empowerment and community awareness, we will create an environment where domestic violence and sexual assault are neither tolerated nor accepted.
+                       </p>
+                       <a href="#" class="button button-primary">
+                       Get Informed
+                       </a>
+                    </div>
+                 </div>
+               </div>
+            </section>
+            
             <section class="u-full-width secondaryContent" id="hero">
         <div class="row">
           <div class="container">
