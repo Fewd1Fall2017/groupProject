@@ -25,6 +25,7 @@
   <script src="/scripts/parallax.min.js"></script>
   <script src="/scripts/circle-progress.min.js"></script>
   <script src="scripts/homePageScript.js"></script>
+  <script src="/scripts/noframework.waypoints.min.js"></script>
   
   
   
@@ -147,7 +148,7 @@
         <div class="row">
           <div class="container">
            <div class="one-half column">
-           <h1>Get Help Today</h1>
+           <h1 id="trigger">Get Help Today</h1>
            <p>Women’s Resource Center assists its clients in healing and is dedicated to providing the highest quality supportive services, counseling, shelter and education to North San Diego County women, children and men involved in or threatened by domestic violence or sexual assault.</p>
            <a href="#" class="button button-primary">
                Get Help
@@ -158,17 +159,23 @@
             </div>
             </section>
 <!-------------------------------------------------------------- Section 2-------------------------------------------------------------------------------->
-               <section class="u-full-width" id="section2">
+               <section class="u-full-width colorSection" id="section2">
                 <div class="row">
                   <div class="container">
-                    <div class="one-half column left">
-                        <div class="second circle">
+                    <div class="one-half column feature">
+                        <div class="circle">
                           <strong></strong>
-                          <span>People Received Help from Our Community</span>
+                          <div id="stickToBottom">
+                          <span class="header">
+                          PEOPLE
+                          </span>   
+                          <span class="text"> Received Help from Women’s Resource Center since 1978
+                          </span>
+                          </div>
                            </div>
                            
                     </div>
-                   <div class="one-half column right">
+                   <div class="one-half column text">
                        <h1>Our Vision</h1>
                        <p>Women’s Resource Center is a health and social justice nonprofit with a simple vision: providw quality, compassionate, innovate services to families affected by domestic violence and sexual assault. </p>
                        <p>Through Women’s Resource Center’s education of future generations, victim empowerment and community awareness, we will create an environment where domestic violence and sexual assault are neither tolerated nor accepted.
@@ -181,7 +188,10 @@
                </div>
             </section>
             
-            <section class="u-full-width secondaryContent" id="hero">
+            
+<!-------------------------------------------------------------- Section 3-------------------------------------------------------------------------------->
+          <section class="parallax" data-parallax="scroll" data-image-src="/images/jordan-whitt-145327.jpg">  
+            <div class="u-full-width secondaryContent" id="hero">
         <div class="row">
           <div class="container">
            <div class="one-half column">
@@ -194,7 +204,31 @@
         </div>
             </div>
             </div>
+              </div>
             </section>
+            
+            
+<!-------------------------------------------------------------- Section 4-------------------------------------------------------------------------------->
+               <section class="u-full-width colorSection" id="section4">
+                <div class="row">
+                  <div class="container">
+                    <div class="one-half column feature">
+
+                           
+                    </div>
+                   <div class="one-half column text">
+                       <h1>Our Vision</h1>
+                       <p>Women’s Resource Center is a health and social justice nonprofit with a simple vision: providw quality, compassionate, innovate services to families affected by domestic violence and sexual assault. </p>
+                       <p>Through Women’s Resource Center’s education of future generations, victim empowerment and community awareness, we will create an environment where domestic violence and sexual assault are neither tolerated nor accepted.
+                       </p>
+                       <a href="#" class="button button-primary">
+                       Get Informed
+                       </a>
+                    </div>
+                 </div>
+               </div>
+            </section>
+            
             <section class="u-full-width tertiaryContent" id="hero">
         <div class="row">
           <div class="container">

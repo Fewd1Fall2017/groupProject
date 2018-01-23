@@ -231,15 +231,15 @@ margin-right: -5px;
 #section2 {
     background-color: #FFB73D;
 }
-#section2 .right {
+.colorSection .text {
     float: right;
     padding: 5%;
     color: #6a304c;
 }
-.my-progress-bar {
-    color: red;
-    z-index: 1000000;
+.colorSection .feature {
+    text-align: center;
 }
+
 .circle {
   width: 100px;
   margin: 6px 6px 20px;
@@ -267,17 +267,48 @@ margin-right: -5px;
 
 .circle span {
   display: block;
-  color: #aaa;
+  color: #fff;
   margin-top: 12px;
+}
+canvas {
+    margin-top: 100px;
+    margin-left: -50px;
+}
+.circle strong {
+    margin-top: 150px;
+    color: #fff;
+    font-size: 60px;
+}
+.circle span {
+    font-family: 'Rubik', sans-serif;
+    color: #6a304c;
+    width: 250px;
+    margin-left: -70px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.circle .header {
+    font-size: 2em;
+}
+.circle .text {
+    font-size: 0.95em;
+}
+
+
+/*Section 4*/
+#section4 {
+    background-color: #EA8571;
 }
 
 
 
 /*Secondary Content*/
 
+/*
 .secondaryContent {
     background: url(../images/jordan-whitt-145327.jpg);
 }
+*/
 
 .secondaryContent .button.button-primary{
     background-color: #FFB73D;
