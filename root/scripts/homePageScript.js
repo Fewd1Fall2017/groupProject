@@ -14,5 +14,20 @@
   });
   },
 })
+        
+function ItemFadeIn(selector) {
+    var items = $(selector);
+    var index = 0;
+
+    function next() {
+        if (index < items.length) {
+            items.eq(index++).fadeIn(1000, next);
+        }
+    }
+    next();
+}
+
+ItemFadeIn(".item");  
+    
   });
 

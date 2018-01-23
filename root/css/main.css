@@ -236,10 +236,14 @@ margin-right: -5px;
     padding: 5%;
     color: #6a304c;
 }
-.colorSection .feature {
+#section2 .feature {
     text-align: center;
 }
 
+#stickToBottom {
+    position: absolute;
+
+}
 .circle {
   width: 100px;
   margin: 6px 6px 20px;
@@ -298,8 +302,38 @@ canvas {
 /*Section 4*/
 #section4 {
     background-color: #EA8571;
+    height: 1150px;
+}
+.item {
+  margin: 5px;
+  display: none;
+}
+#section4 h1 {
+    padding: 5% 5% 0 5%;
+    text-align: center;
+    color: #6a304c;
 }
 
+#section4 h2 {
+    text-align: center;
+    color: #6a304c;
+    font-size: 1.8em;
+    color: #fff;
+}
+
+#section4 .column ul {
+    list-style-type: none;
+    color: #6a304c;
+    font-size: 1.5em;
+}
+#section4 .column {
+    margin: 0;
+    padding: 0;
+}
+#section4 .column ul li {
+    margin: 20px 5px;
+    border-bottom: solid 1px #fff;
+}
 
 
 /*Secondary Content*/
@@ -316,9 +350,11 @@ canvas {
 }
 
 /*tertiaryContent*/
+/*
 .tertiaryContent {
     background: url(../images/henri-meilhac-155942.jpg);
 }
+*/
 
 .tertiaryContent .button.button-primary{
     background-color: #EA8571;
@@ -821,6 +857,11 @@ footer li a:hover {
     .footerBanner a{
         float: right;
     }
+    
+/*    Section 4*/
+    #section4 {
+    height: 900px;
+}
 }
 
 
@@ -980,6 +1021,10 @@ footer li a:hover {
         padding: 0 15px;
         flex-basis: 42%;
     }
+      /*    Section 4*/
+    #section4 {
+    height: 750px;
+    } 
 }
 /*** end ***/
 
@@ -1009,9 +1054,7 @@ footer .row div:nth-of-type(n+3){
 
 footer .row div:nth-of-type(n+4){
     margin-left: 2%;
-}
-    
-    
+} 
 
 
 }
@@ -1058,8 +1101,15 @@ footer .row div:nth-of-type(n+4){
     text-align: right;
     vertical-align: top;
 }
+/*    Section 4*/
 
-    
+    #section4 {
+    height: 850px;
+}
+          /*    Section 4*/
+    #section4 {
+    height: 650px;
+} 
 }
 
 
@@ -1081,6 +1131,10 @@ footer .row div:nth-of-type(n+4){
     .card {
         height: 320px !important;
     }
+          /*    Section 4*/
+    #section4 {
+    height: 600px;
+} 
 }
 
 /****************SUPPORT*************************/
