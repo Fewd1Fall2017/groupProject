@@ -222,8 +222,14 @@ margin-right: -5px;
 
 /*Primary Content*/
 
+/* Previous version
 .primaryContent {
     background: url(../images/banner-1400px.jpg);
+}
+*/
+.parallax {
+    min-height: 600px;
+    background: transparent;
 }
 
 .primaryContent .button.button-primary{
@@ -231,11 +237,122 @@ margin-right: -5px;
     border-color: #00C5CD;
 }
 
+/*Section 2*/
+#section2 {
+    background-color: #FFB73D;
+}
+.colorSection .text {
+    float: right;
+    padding: 5%;
+    color: #6a304c;
+}
+#section2 .feature {
+    text-align: center;
+}
+
+#stickToBottom {
+    position: absolute;
+
+}
+.circle {
+  width: 100px;
+  margin: 6px 6px 20px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.circle strong {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 30px;
+}
+
+.circle strong i {
+  font-style: normal;
+  font-size: 0.6em;
+  font-weight: normal;
+}
+
+.circle span {
+  display: block;
+  color: #fff;
+  margin-top: 12px;
+}
+canvas {
+    margin-top: 100px;
+    margin-left: -50px;
+}
+.circle strong {
+    margin-top: 150px;
+    color: #fff;
+    font-size: 60px;
+}
+.circle span {
+    font-family: 'Rubik', sans-serif;
+    color: #6a304c;
+    width: 250px;
+    margin-left: -70px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.circle .header {
+    font-size: 2em;
+}
+.circle .text {
+    font-size: 0.95em;
+}
+
+
+/*Section 4*/
+#section4 {
+    background-color: #EA8571;
+    height: 1150px;
+}
+.item {
+  margin: 5px;
+  display: none;
+}
+#section4 h1 {
+    padding: 5% 5% 0 5%;
+    text-align: center;
+    color: #6a304c;
+}
+
+#section4 h2 {
+    text-align: center;
+    color: #6a304c;
+    font-size: 1.8em;
+    color: #fff;
+}
+
+#section4 .column ul {
+    list-style-type: none;
+    color: #6a304c;
+    font-size: 1.5em;
+}
+#section4 .column {
+    margin: 0;
+    padding: 0;
+}
+#section4 .column ul li {
+    margin: 20px 5px;
+    border-bottom: solid 1px #fff;
+}
+
+
 /*Secondary Content*/
 
+/*
 .secondaryContent {
     background: url(../images/jordan-whitt-145327.jpg);
 }
+*/
 
 .secondaryContent .button.button-primary{
     background-color: #FFB73D;
@@ -243,9 +360,11 @@ margin-right: -5px;
 }
 
 /*tertiaryContent*/
+/*
 .tertiaryContent {
     background: url(../images/henri-meilhac-155942.jpg);
 }
+*/
 
 .tertiaryContent .button.button-primary{
     background-color: #EA8571;
@@ -687,8 +806,8 @@ footer li a:hover, footer address + a:hover {
     transform: rotate(90deg);
 }
 
-#donationOptions h6 {
-    margin: 10px 0;
+#donationOptions .aboutCareer {
+    margin: 40px 0;
 }
 
  
@@ -766,6 +885,11 @@ footer li a:hover, footer address + a:hover {
     .footerBanner a{
         float: right;
     }
+    
+/*    Section 4*/
+    #section4 {
+    height: 900px;
+}
 }
 
 
@@ -925,6 +1049,10 @@ footer li a:hover, footer address + a:hover {
         padding: 0 15px;
         flex-basis: 42%;
     }
+      /*    Section 4*/
+    #section4 {
+    height: 750px;
+    } 
 }
 /*** end ***/
 
@@ -954,9 +1082,7 @@ footer .row div:nth-of-type(n+3){
 
 footer .row div:nth-of-type(n+4){
     margin-left: 2%;
-}
-    
-    
+} 
 
 
 }
@@ -1004,8 +1130,15 @@ footer .row div:nth-of-type(n+4){
     text-align: right;
     vertical-align: top;
 }
+/*    Section 4*/
 
-    
+    #section4 {
+    height: 850px;
+}
+          /*    Section 4*/
+    #section4 {
+    height: 650px;
+} 
 }
 
 
@@ -1027,6 +1160,10 @@ footer .row div:nth-of-type(n+4){
     .card {
         height: 320px !important;
     }
+          /*    Section 4*/
+    #section4 {
+    height: 600px;
+} 
 }
 
 /****************SUPPORT*************************/
