@@ -694,7 +694,7 @@ footer li a:hover, footer address + a:hover, footer address + a + a:hover {
 /*Donate Page*/
 
 .donateHeader {
-    background: url(../images/hands.png) no-repeat center;
+    background: url(../images/hands.jpg) no-repeat center;
     background-size: cover;
 }
 #donationOptions h3 {
