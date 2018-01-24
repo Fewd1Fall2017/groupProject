@@ -572,17 +572,21 @@ legend {
 }
 .contact_form button.submit {
     1background-color: #00C5CD;
-    background: linear-gradient(to top, #bbdfd9, #00C5CD);
+
     color: #666;
     border: solid 1px #999;
     border-radius: 5px;
     padding: 0px 10px 0px 10px;
     font-weight: bold;
+    font-family: 'Rubik', sans-serif;
 }
 /*End form in about page*/
 .aboutViewBio:hover {
     color: #00C5CD;
     
+}
+button.submit:hover {
+    color: #fff;
 }
 
 /* END FORM IN ABOUT PAGE */
