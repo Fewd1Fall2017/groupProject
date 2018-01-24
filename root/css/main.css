@@ -183,16 +183,6 @@ margin: 1px -5px  0px -25px;
     border-top: solid 1px #c6c5c6;
 }
 
-/*  IF you want to have a different color for nav titles just active the below code
-.navtitle {
-background-color: #715362;
-margin-left: -5px;
-margin-right: -5px;
-}
-*/
-
-
-
 
 
 /*Larger screen Moves to b0ttom of the page*/
@@ -222,11 +212,6 @@ margin-right: -5px;
 
 /*Primary Content*/
 
-/* Previous version
-.primaryContent {
-    background: url(../images/banner-1400px.jpg);
-}
-*/
 .parallax {
     min-height: 600px;
     background: transparent;
@@ -352,11 +337,6 @@ canvas {
 
 /*Secondary Content*/
 
-/*
-.secondaryContent {
-    background: url(../images/jordan-whitt-145327.jpg);
-}
-*/
 
 .secondaryContent .button.button-primary{
     background-color: #FFB73D;
@@ -364,11 +344,7 @@ canvas {
 }
 
 /*tertiaryContent*/
-/*
-.tertiaryContent {
-    background: url(../images/henri-meilhac-155942.jpg);
-}
-*/
+
 
 .tertiaryContent .button.button-primary{
     background-color: #EA8571;
@@ -427,9 +403,8 @@ img {
 }
 
 
-
-
 /*Events*/
+
 .hLessLineheight {
     line-height: .35;
     padding-top: 10px;
