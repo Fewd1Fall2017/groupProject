@@ -209,7 +209,7 @@ margin-right: -5px;
     background-position: center;
 }
 
-#hero .one-half, .textArea .one-half {
+#hero .one-half, .textArea .one-half, #mother .one-half, #brave .one-half {
     margin-top:10%;
     margin-bottom: 10%;
     background: rgba(255,255,255,.7);
@@ -433,7 +433,6 @@ img {
 .hLessLineheight {
     line-height: .35;
     padding-top: 10px;
-    border-radius: ;
 }
 
 .flex {
@@ -811,6 +810,9 @@ footer li a:hover, footer address + a:hover, footer address + a + a:hover {
 #accordion h5 img {
     margin-top: 4px;
     
+}
+.arrow {
+    float: right;
 }
 .arrowRotate {
     transform: rotate(90deg);
