@@ -562,6 +562,7 @@ legend {
 }
 button.submit:hover {
     color: #fff;
+     background-color: #6a304c;
 }
 
 /* END FORM IN ABOUT PAGE */
