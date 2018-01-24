@@ -207,6 +207,123 @@
             </div>
             </div>
             </section>
+            
+        
+        <form action="mailto:anna.tseliuba@gmail.com" method="post" id="careerForm">
+            <figure>
+<!--
+    <img src="images/hornShark.jpg" alt="horn shark moving egg case">
+    <figcaption>Figcaption here</figcaption>
+-->
+    </figure>
+           <h3 class="formHeader">We're Always Looking For Talented People To Join Our Team!</h3>
+        <h4>Fill Out the Application Form Below</h4>
+       <fieldset>
+       <legend>Personal Information</legend>
+       <ul class="list">
+       <li><label for="first_name" class="req">First Name: </label>
+       <input type="text" id="first_name" name="first_name" value="" placeholder="Your first name" required autofocus/></li>
+       
+       <li><label for="last_name" class="req">Last Name: </label>
+       <input type="text" id="last_name" name="last_name" value="" placeholder="Your last name" required /></li>
+       
+       <li><label for="email" class="req">Email Address: </label>
+       <input type="email" id="email" name="email" value="" placeholder="Your@email.com" required /></li>
+       
+       <li><label for="telephone">Your Telephone: </label>
+       <input type="tel" id="telephone" name="telephone" value="" placeholder="(999) 999-9999" /></li>
+       
+       <li><label for="city"> City: </label>
+       <input type="text" id="city" name="city" value="" placeholder="Your city" /></li>
+        
+        <li><label for="zip">ZIP Code</label><input type="text" placeholder="12345" pattern="[0-9]{5}" id="zip" name="zip" value="" /></li>
+        
+        <li><label> State: </label>
+       <select name="state" size="1">
+        <option selected value="">Select Your State</option>
+        <option value="AK">Alaska</option>
+        <option value="CA">California</option>
+        <option value="FL">Florida</option>
+        <option value="HI">Hawaii</option>
+        <option value="NY">New York</option>
+        </select></li>
+        
+        </ul>
+
+       </fieldset>
+       
+       <fieldset>
+           <legend>Position and Availability</legend>
+           
+        <!-- radio buttons-->
+        <div class='radioLists'>
+      
+       <ul class="radioList rl1">
+       <li><label>Pick a Departament you would like to work</label></li>
+       <li><input type="radio" name="jobOpport" value="youthServices" id="youthServices" /> Youth Services</li>
+       
+       <li><input type="radio" name="jobOpport" value="development" id="development" /> Development</li>
+       
+       <li><input type="radio" name="jobOpport" value="informTechnology" id="informTechnology" /> Information Technology</li>
+       
+       <li><input type="radio" name="jobOpport" value="store" id="store" />Thrift Store</li>
+       
+       <li><input type="radio" name="jobOpport" value="shelter" id="shelter" />Shelter</li>
+       
+       <li><input type="radio" name="jobOpport" value="hotline" id="hotline" />Hotline</li>
+       </ul>
+       
+    
+         <!--checkbox-->
+         
+        <ul class="radioList rl2">
+           <li><label>If applicable, what time you prefer to work?</label></li>
+            <li><input type="checkbox" name="availability" id="mor" value="mor">Mornings</li>
+            <li><input type="checkbox" name="availability" id="aftern" value="aftern">Afternoons</li>
+            <li><input type="checkbox" name="availability" id="nights" value="nights">Nights</li>
+            <li><input type="checkbox" name="availability" id="nights" value="nights">Weekend</li>
+        </ul>
+        </div>
+        <br>
+        
+            <!--textareas-->
+            <ul class="tAreas">
+                <li>
+                <label>Tell Us about Yourself in a Few Words</label>
+                <textarea name="message" id="message1" placeholder="Write about yourself here please..."></textarea>
+                </li>
+                <li>
+                <label>Your Questions and Comments: </label>
+                <textarea name="message" id="message2" placeholder="Write your massage here please..."></textarea>
+                </li>
+            <li>
+            <input type="file" name="file" id="file" class="inputfile" data-multiple-caption="{count} files selected" multiple />
+        <label for="file"><span>Please upload your resume and reference list here</span></label></li></ul>
+        
+        </fieldset>
+        
+        <fieldset>
+        <legend>Stay in Touch</legend>
+        <ul class="radioList rl3">
+        <li><label>Sign up for Newsletter</label></li>
+       
+       <li><input type="radio" name="newsletter" id="newsletter1" value="yes"/> Yes</li>
+       
+       <li><input type="radio" name="newsletter" id="newsletter2" value="no"/> No</li>
+       </ul>
+       
+       </fieldset>
+       
+       <ul class="buttons">
+       <li><input type="submit" id="submit" value="Submit" /></li>
+       
+       <li><input type="reset" id="reset" name="reset" value="Reset" /></li>
+       </ul>
+        
+    </form>
+
+        
+        
 
         </main>
 
