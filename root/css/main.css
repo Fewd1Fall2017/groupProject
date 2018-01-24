@@ -1278,6 +1278,9 @@ footer .row div:nth-of-type(n+4){
         border-left: 1px solid #fff;
         padding-left: 4%;
         } 
+    .rl3 li:last-child, .rl3 li:nth-child(n+2) {
+        float: left;
+    }
     .rl3 li:nth-child(n+2){
         width: 15%;  
 }
