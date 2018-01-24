@@ -345,11 +345,7 @@ canvas {
 }
 
 /*tertiaryContent*/
-/*
-.tertiaryContent {
-    background: url(../images/henri-meilhac-155942.jpg);
-}
-*/
+
 
 .tertiaryContent .button.button-primary{
     background-color: #EA8571;
@@ -443,6 +439,8 @@ img {
     margin-bottom: 10px;
     padding-top: 20px;
 }
+
+
 
 /*Stories*/
 .storiesHeader {
@@ -550,18 +548,27 @@ legend {
     box-shadow: 0 0 3px #999, 0 10px 15px rgba(255,255,255,.5) inset;
 }
 .contact_form button.submit {
+<<<<<<< HEAD
     background-color: #00C5CD;
+=======
+    1background-color: #00C5CD;
+
+>>>>>>> d9855672e6dac4f294f3247820780e6a35d986a9
     color: #666;
     border: solid 1px #999;
     border-radius: 5px;
     padding: 0px 10px 0px 10px;
     font-weight: bold;
+    font-family: 'Rubik', sans-serif;
 }
 /*End form in about page*/
 
 .aboutViewBio:hover {
     color: #00C5CD;
     
+}
+button.submit:hover {
+    color: #fff;
 }
 
 /* END FORM IN ABOUT PAGE */
