@@ -899,6 +899,9 @@ textarea {
     margin-top: 5px;
     background-color: #fff !important;
 }
+#careerForm select:focus {
+    background-color: #fff;
+}
 .buttons {
     text-align: center;
     width: 100%;
