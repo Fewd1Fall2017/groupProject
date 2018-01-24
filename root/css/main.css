@@ -40,15 +40,15 @@ h1, h2, h3, h4, h5, h6{
 
 .button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
     font-family: 'Rubik', sans-serif;
-    color: #f1f0f0;
-    background-color: #6a304c;
+    color:  #6a304c;
+    background-color: #f1f0f0;
     border-color: #6a304c;
     border-radius: 0;
 }
 
 .button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
-    color: #6a304c;
-    background-color: #f1f0f0;
+    color: #f1f0f0;
+    background-color: #6a304c;
     border-color: #6a304c;
     border-radius: 0;
 }
@@ -75,7 +75,7 @@ a {
 }
 
 a:hover {
-    color: #fff;
+    color: #f1f0f0;
 }
 
 a:focus {
@@ -88,7 +88,7 @@ header a{
 }
 
 header i {
-    color: #fff;
+    color: #f1f0f0;
     font-size: .8em;
     float: right;
     margin-top: -44px;
@@ -112,7 +112,7 @@ header i {
 .main-navigation {
   background-color: #6a304c;
  /* navigatin color gray changed to purple */
-  color: #fff;
+  color: #f1f0f0;
 }
 
 .main-navigation .menu {
@@ -140,7 +140,7 @@ header i {
 .menu-toggle {
   /*background: none;*/
   border: 0;
-  color: #fff;
+  color: #f1f0f0;
   cursor: pointer;
   font-size: 1em;
   height: 48px;
@@ -285,7 +285,7 @@ margin-right: -5px;
 
 .circle span {
   display: block;
-  color: #fff;
+  color: #f1f0f0;
   margin-top: 12px;
 }
 canvas {
@@ -294,7 +294,7 @@ canvas {
 }
 .circle strong {
     margin-top: 150px;
-    color: #fff;
+    color: #f1f0f0;
     font-size: 60px;
 }
 .circle span {
@@ -332,7 +332,7 @@ canvas {
     text-align: center;
     color: #6a304c;
     font-size: 1.8em;
-    color: #fff;
+    color: #f1f0f0;
 }
 
 #section4 .column ul {
@@ -346,7 +346,7 @@ canvas {
 }
 #section4 .column ul li {
     margin: 20px 5px;
-    border-bottom: solid 1px #fff;
+    border-bottom: solid 1px #f1f0f0;
 }
 
 
@@ -669,7 +669,7 @@ footer li, footer li a, footer address {
     color: #EA8571;
 }
 
-footer li a:hover, footer address + a:hover {
+footer li a:hover, footer address + a:hover, footer address + a + a:hover {
     border-bottom: 2px solid #EA8571;
     color: #EA8571;
 }
@@ -698,7 +698,7 @@ footer li a:hover, footer address + a:hover {
 /*Donate Page*/
 
 .donateHeader {
-    background: url(../images/hands.png) no-repeat center;
+    background: url(../images/hands.jpg) no-repeat center;
     background-size: cover;
 }
 #donationOptions h3 {
@@ -764,7 +764,7 @@ footer li a:hover, footer address + a:hover {
   -webkit-transform: scale(1); /* Safari */
 }
 .box:hover {
-    background-color: #fff;
+    background-color: #f1f0f0;
 }
 
 
@@ -799,7 +799,7 @@ footer li a:hover, footer address + a:hover {
     background-color: #6a304c;
 }
 #accordion h5 {
-    color: #fff;
+    color: #f1f0f0;
     padding: 4px 10px;
 }
 #accordion h5 img {
@@ -947,7 +947,7 @@ input[type=reset] {
 }
 
 .volunteerHeader {
-    background: url(../images/volunteer.jpeg) no-repeat center;
+    background: url(../images/volunteer.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -975,12 +975,12 @@ input[type=reset] {
 }
 
 .back p {
-    color: #fff;
+    color: #f1f0f0;
     font-size: 1.2em;
 }
 
 .front h4 {
-    color: #fff;
+    color: #f1f0f0;
 }
 
 .card {
@@ -1392,7 +1392,7 @@ footer .row div:nth-of-type(n+4){
     padding: 2rem 2rem 2.25rem;
     box-sizing: border-box;
     display: block;
-    color: #FFF;
+    color: #f1f0f0;
     background-color: #00C5CD;
     text-align: left;
     min-height: 250px;
@@ -1406,7 +1406,7 @@ footer .row div:nth-of-type(n+4){
 #housing .housingContent > h3 {
     margin-bottom: 1rem;
     line-height: 1.1;
-    color: #FFF;
+    color: #f1f0f0;
     text-align: left;
 }
 
@@ -1436,6 +1436,166 @@ footer .row div:nth-of-type(n+4){
     margin-bottom: 5%;
 }
 
+
+/****************EMPLOYMENT*************************/
+
+#employmentMain {
+    background: url(/images/employment_hero_1280_800.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 8%;
+}
+
+#employment .employmentImage {
+    display: block;
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding-top: 56.25%;
+    background-color: #bbb;
+}
+
+#employment .employmentImage img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+#employment .employmentContent{
+    padding: 2rem 2rem 2.25rem;
+    box-sizing: border-box;
+    display: block;
+    color: #f1f0f0;
+    background-color: #FFB73D;
+    text-align: left;
+    min-height: 250px;
+    position: relative;
+}
+
+#employment .employmentContent.second {
+    background-color: #EA8571;
+}
+
+#employment .employmentContent > h3 {
+    margin-bottom: 1rem;
+    line-height: 1.1;
+    color: #f1f0f0;
+    text-align: left;
+}
+
+#employmentMain a:focus {
+    background: none;
+}
+
+#employmentSecondary .container {
+    max-width: 100%;
+    width: 95%;
+}
+
+#employmentSecondary .quote, #employmentSecondary h1  {
+    font-family: 'Spectral', serif;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    color: #6a304c;
+}
+
+#employmentSecondary h1 {
+    font-size: 4rem;
+}
+
+#employment .featured{
+    background: rgba(255,255,255,.7);
+    color: #6a304c;
+    padding: 5%;
+    
+}
+
+#employment .one-half.featured {
+    margin-top:10%;
+    margin-bottom: 10%;
+    text-align: center; 
+}
+
+#employmentSecondary .one-half.column{
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+.employmentLinks {
+    display: block;
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding-top: 74.25%;
+}
+
+ .employmentLinks h5 ~ a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+a#currentJobs, a#training, a#successStories, a#workforce{
+    background-size: cover;
+    background-blend-mode: luminosity;
+    transition: background-color .5s; 
+}
+
+#currentJobs {
+    background: url(/images/current_jobs_268_200.jpg) no-repeat;
+    background-color: #6a304c;
+}
+
+#training  {
+    background: url(/images/training_268_200.jpg) no-repeat;
+    background-color: #FFB73D;
+}
+
+#successStories  {
+    background: url(/images/success_stories.jpg) no-repeat;
+    background-color: #00C5CD;
+}
+
+#workforce  {
+    background: url(/images/workforce_268_200.jpg) no-repeat;
+    background-color: #EA8571;
+}
+
+.employmentLinks h5:hover ~ #currentJobs, .employmentLinks h5:hover ~ #training, .employmentLinks h5:hover ~ #successStories, .employmentLinks h5:hover ~ #workforce {
+  background-color: transparent;
+}
+
+
+.employmentLinks h5 a{
+    text-shadow: 2px 2px 6px #000;
+    line-height: 1;
+    color: #f1f0f0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    z-index: 1000;
+}
+
+@media (max-width: 550px){
+    .employmentLinks{
+        margin-bottom: 5%;
+    }
+    
+    .employmentLinks h5{
+        font-size: 3.8rem;
+    }
+    
+}
 
 
 
