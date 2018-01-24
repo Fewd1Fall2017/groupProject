@@ -433,7 +433,6 @@ img {
 .hLessLineheight {
     line-height: .35;
     padding-top: 10px;
-    border-radius: ;
 }
 
 .flex {
@@ -523,7 +522,7 @@ img {
 ::placeholder {
     color: #00C5CD;
 }
-fieldset {
+.formAbout { /*fieldset*/
     border: none;
     border-top: solid 1px #00C5CD;
 }
@@ -557,6 +556,7 @@ legend {
 }
 .contact_form textarea {
     min-width: 220px;
+    max-width: 220px;
     height: 70px;
 }
 .contact_form input, .contact_form textarea {
@@ -580,7 +580,7 @@ legend {
 /*End form in about page*/
 .aboutViewBio:hover {
     color: #00C5CD;
-    font-weight: 500;
+    
 }
 
 /* END FORM IN ABOUT PAGE */
