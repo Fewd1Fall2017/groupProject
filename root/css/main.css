@@ -577,6 +577,11 @@ legend {
     padding: 0px 10px 0px 10px;
     font-weight: bold;
 }
+/*End form in about page*/
+.aboutViewBio:hover {
+    color: #00C5CD;
+    font-weight: 500;
+}
 
 /* END FORM IN ABOUT PAGE */
 
