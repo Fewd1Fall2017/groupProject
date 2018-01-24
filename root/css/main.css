@@ -571,7 +571,7 @@ legend {
     box-shadow: 0 0 3px #999, 0 10px 15px rgba(255,255,255,.5) inset;
 }
 .contact_form button.submit {
-    background-color: #00C5CD;
+    1background-color: #00C5CD;
     background: linear-gradient(to top, #bbdfd9, #00C5CD);
     color: #666;
     border: solid 1px #999;
