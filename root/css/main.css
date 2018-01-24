@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6{
     border-radius: 0;
 }
 
-/*HEADER*/
+/*************************HEADER******************/
 header {
      background-color: #6a304c;
      padding: 5px;      /* It makes the border around the nav when it is shown */
@@ -183,16 +183,6 @@ margin: 1px -5px  0px -25px;
     border-top: solid 1px #c6c5c6;
 }
 
-/*  IF you want to have a different color for nav titles just active the below code
-.navtitle {
-background-color: #715362;
-margin-left: -5px;
-margin-right: -5px;
-}
-*/
-
-
-
 
 
 /*Larger screen Moves to b0ttom of the page*/
@@ -200,7 +190,7 @@ margin-right: -5px;
 
 /* ---- end nav ---- */
 
-
+/***************HOME PAGE******************/
 /*Main Content*/
 
 #hero {
@@ -222,11 +212,7 @@ margin-right: -5px;
 
 /*Primary Content*/
 
-/* Previous version
-.primaryContent {
-    background: url(../images/banner-1400px.jpg);
-}
-*/
+
 .parallax {
     min-height: 600px;
     background: transparent;
@@ -352,11 +338,6 @@ canvas {
 
 /*Secondary Content*/
 
-/*
-.secondaryContent {
-    background: url(../images/jordan-whitt-145327.jpg);
-}
-*/
 
 .secondaryContent .button.button-primary{
     background-color: #FFB73D;
@@ -569,8 +550,7 @@ legend {
     box-shadow: 0 0 3px #999, 0 10px 15px rgba(255,255,255,.5) inset;
 }
 .contact_form button.submit {
-    1background-color: #00C5CD;
-    background: linear-gradient(to top, #bbdfd9, #00C5CD);
+    background-color: #00C5CD;
     color: #666;
     border: solid 1px #999;
     border-radius: 5px;
@@ -578,6 +558,7 @@ legend {
     font-weight: bold;
 }
 /*End form in about page*/
+
 .aboutViewBio:hover {
     color: #00C5CD;
     
@@ -700,7 +681,7 @@ footer li a:hover, footer address + a:hover, footer address + a + a:hover {
 
 
 
-/*Donate Page*/
+/*******************Donate Page**************************/
 
 .donateHeader {
     background: url(../images/hands.jpg) no-repeat center;
@@ -788,7 +769,7 @@ footer li a:hover, footer address + a:hover, footer address + a + a:hover {
     color: #0083A1;
 }
 
-/***************************************** Career Page *******************************************************/
+/*************** Career Page *****************************/
 
 .careersHeader {
     background: url(../images/career-page.jpg) no-repeat center;
@@ -940,7 +921,7 @@ input[type=reset] {
 
 
  
-/***************************************** Volunteer Page *******************************************************/
+/*************** Volunteer Page *******************/
 
 
 .subHeader h5, h3 {  
@@ -1191,7 +1172,7 @@ input[type=reset] {
           display: grid;
           grid-template-columns: 33% 33% 33%;
     }
-    /****************** Volunteer Page ***************/    
+/****************** Volunteer Page ***************/    
     #volunteerOpp {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -1258,7 +1239,7 @@ footer .row div:nth-of-type(n+4){
     text-align: right;
     vertical-align: top;
 }
-/*    Section 4*/
+/* Section 4*/
 
     #section4 {
     height: 850px;
@@ -1270,7 +1251,7 @@ footer .row div:nth-of-type(n+4){
     
     
     
-/*    Career Page Form*/
+/*Career Page Form*/
      #careerForm .list li {
         display: inline-block;
         width: 39%;     
@@ -1307,13 +1288,13 @@ footer .row div:nth-of-type(n+4){
 @media (min-width: 1200px){
     
     
-                               /******* stories columns ******/
+/******* stories columns ******/
     .storiesCol {
     padding: 0 15px;
     flex-basis: 29%;
     }
     
-    /****************** Volunteer Page ***************/    
+    /****************** VOLUNTEER PAGE ***************/    
 
     #volunteerOpp {
         display: grid;
@@ -1328,7 +1309,7 @@ footer .row div:nth-of-type(n+4){
 } 
 }
 
-/****************SUPPORT*************************/
+/****************SUPPORT PAGE*************************/
 
 #supportMain {
     background: url(/images/eye-for-ebony-415494.jpg) no-repeat;
@@ -1362,7 +1343,7 @@ footer .row div:nth-of-type(n+4){
     margin-bottom: 5%;
 }
 
-/****************HOUSING*************************/
+/****************HOUSING PAGE*************************/
 
 #housingMain {
     background: url(/images/Homeownership.jpg) no-repeat;
@@ -1448,7 +1429,7 @@ footer .row div:nth-of-type(n+4){
 }
 
 
-/****************EMPLOYMENT*************************/
+/*********************EMPLOYMENT PAGE*************************/
 
 #employmentMain {
     background: url(/images/employment_hero_1280_800.jpg) no-repeat;
