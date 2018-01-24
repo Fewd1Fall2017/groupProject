@@ -21,7 +21,7 @@ function ItemFadeIn(selector) {
 
     function next() {
         if (index < items.length) {
-            items.eq(index++).fadeIn(1000, next);
+            items.eq(index++).fadeIn(500, next);
         }
     }
     next();

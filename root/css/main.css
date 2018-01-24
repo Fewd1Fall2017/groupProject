@@ -241,6 +241,10 @@ margin-right: -5px;
 #section2 {
     background-color: #FFB73D;
 }
+#section2 .feature {
+    height: 450px;
+}
+
 .colorSection .text {
     float: right;
     padding: 5%;
@@ -809,6 +813,120 @@ footer li a:hover, footer address + a:hover {
 #donationOptions .aboutCareer {
     margin: 40px 0;
 }
+#careerForm h4 {
+    text-align: center;
+    color: #00C5CD;
+}
+
+/*Career Page Form*/
+
+#careerForm fieldset {
+    padding: 2em;
+    margin: 1em 2em;
+    border: 1px solid #fff;
+}
+
+#careerForm legend {
+    padding: 0 5px;
+    font-size: 1.1em;
+    display: inline-block;
+}
+
+#careerForm label {
+    text-align: left;
+    vertical-align: top;
+    font-style: italic;
+}
+
+#careerForm input {
+    margin-right: 5px;
+}
+
+ul.radioList, ul.list, ul.tAreas {
+    list-style-type: none;
+}
+
+ul.radioList, ul.list {
+    margin-bottom: 15px;
+}
+
+.list li, .radioList li, .tAreas li {
+    margin: 0 5% 2%;   
+}
+
+.list li input, .list li select {
+    margin-top: 0.2em;
+    height: 30px;
+    width: 100%;
+    display: block;
+}
+
+
+.list li:nth-child(n+7), .buttons li {
+    height: 30px;
+    display: inline-block;
+}
+
+.list li:nth-last-child(2) {
+    width: 30%;
+}
+
+.list li:last-child {
+    width: 50%;
+    float: left;
+}
+
+.list label.req:after {
+  content: "*";
+  color: #ff6666;
+}
+
+input, textarea {
+  border-radius: 7px;
+  padding-left: 1em;
+}
+
+#careerForm textarea {
+    padding-top: 7px;
+}
+
+#careerForm .radioList:last-child {
+    margin-top: 0px;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+    background-color: #fff !important;
+}
+.buttons {
+    text-align: center;
+    width: 100%;
+    margin: 25px 0;
+}
+input[type=submit], input[type=reset] {
+    padding: 5px 15px; 
+    cursor: pointer;
+    font-size: 1em;
+    transition: all 150ms linear;
+    background-color: #ff6666;
+    color: #fff;
+    border: 1px solid white;
+}
+
+input[type=reset] {
+    background-color: #5F6A6A;
+}
+
+#careerForm input[type=submit]:hover, #careerForm input[type=reset]:hover {
+    color: black;
+    border: 1px solid red;
+    transition: all 150ms linear;
+    opacity: .7;
+}
+
+
+
 
  
 /***************************************** Volunteer Page *******************************************************/
@@ -912,7 +1030,6 @@ footer li a:hover, footer address + a:hover {
   .menu-toggle {
     display: none;
   }
-
   
   /* Make sure the menu items display */
   .main-navigation a {
@@ -926,7 +1043,7 @@ footer li a:hover, footer address + a:hover {
   
   .main-navigation li {
     display: inline-block;
-    position: relative /* Sub menus are absolutely positioned relative to this*/
+    position: relative; /* Sub menus are absolutely positioned relative to this*/
   }
   
   /* Display sub-menu items vertically */
@@ -1139,6 +1256,37 @@ footer .row div:nth-of-type(n+4){
     #section4 {
     height: 650px;
 } 
+    
+    
+    
+/*    Career Page Form*/
+     #careerForm .list li {
+        display: inline-block;
+        width: 39%;     
+        }
+    #careerForm .list li:nth-child(n+7) {
+    width: 39%;  
+    display: inline-block;
+        }
+    .rl1 {    
+        width: 47%;
+        float: left;
+        }
+    .rl2 {
+        width: 47%;
+        float: right;
+        border-left: 1px solid #fff;
+        padding-left: 4%;
+        } 
+    .rl3 li:nth-child(n+2){
+        width: 15%;  
+}
+    .radioLists:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+       
 }
 
 
